@@ -1,0 +1,16 @@
+build/
+.lake/
+.venv/
+__pycache__/
+*.pyc
+*.olean
+*.ilean
+*.o
+*.so
+*.a
+*.tar.gz
+*.tar.zst
+*.zip
+.env
+.env.*
+verification/rebuild/lean-path.txt

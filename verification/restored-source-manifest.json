@@ -1,0 +1,52 @@
+[
+  {
+    "module": "BoxPolynomialBounds",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/base/base/base/base/base/base/base/base/base/box-contraction/BoxPolynomialBounds.lean",
+    "sha256": "5489ae7326aabaccb8e48fe6b651eac4a5977e72ee301bf7b499d3623c449d68"
+  },
+  {
+    "module": "ComplexPolynomialBounds",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/base/base/base/base/base/complex-obstruction/ComplexPolynomialBounds.lean",
+    "sha256": "bb6bc650b2cbcc0edc05e89f21655a2ab34c955369f516544f8d602349758b22"
+  },
+  {
+    "module": "UniformStationaryBanach",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/base/base/base/base/base/base/base/base/base/base/uniform-stationary/UniformStationaryBanach.lean",
+    "sha256": "d773f3fba88060de8a357a39863a3e1d43d65574e720a4d70c1669fc9995b215"
+  },
+  {
+    "module": "BoxContractionChecker",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/base/base/base/base/base/base/base/base/base/box-contraction/BoxContractionChecker.lean",
+    "sha256": "63ad841fdb5be45adbc50b50548f478f64423687e0066d3185e438e59d20d44e"
+  },
+  {
+    "module": "ComplexCheckedFixedPoint",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/base/base/base/base/base/complex-obstruction/ComplexCheckedFixedPoint.lean",
+    "sha256": "ae3867a00ff662101b4956b64a951bad0ee0ffc6eb132ea53065f8379d8989c6"
+  },
+  {
+    "module": "PolynomialReadoutAnalytic",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/base/base/base/base/holomorphic-obstruction/PolynomialReadoutAnalytic.lean",
+    "sha256": "87e3c0e91fa7c4aa35473f14651ddd256e2d79fd61d40661e59125220b574c44"
+  },
+  {
+    "module": "GenericHolomorphicPole",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/base/base/base/generic-pole/GenericHolomorphicPole.lean",
+    "sha256": "e7e8f0c63a2272ee0933ef89e01e2a6f7501f40fc55d95b34720a13638d144e6"
+  },
+  {
+    "module": "CanonicalInputExpr",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/base/base/one-state-realization/CanonicalInputExpr.lean",
+    "sha256": "e56af0a9d3ad6e247175a3cb5d77d1a37ad954cbceecc875ca9189d6012151b1"
+  },
+  {
+    "module": "MultivariateInputExpr",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/multivariable-bezout/MultivariateInputExpr.lean",
+    "sha256": "ce2b4059e3b52403060756020f92810641c30147341714456c914b0a49de2540"
+  },
+  {
+    "module": "MultivariateBezoutRealization",
+    "source": "lab_restore/recherche_corona_polynomiale_20261104/base/multivariable-bezout/MultivariateBezoutRealization.lean",
+    "sha256": "ddc1e6aae47c503ff94426d82a882ac02b0b83ad330e16ef1d91e92dd532b02c"
+  }
+]

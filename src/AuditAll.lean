@@ -1,0 +1,120 @@
+import LocalAtlasCoefficientNorm
+import LocalAtlasPerturbation
+import LocalAtlasRationalNorm
+import LocalAtlasRational
+import LocalAtlasCompactMargin
+import LocalAtlasRealEvaluation
+import GridCoverage
+import LocalAtlasCompleteness
+import GridCheckerRealization
+import LocalAtlasChecked
+import TwoCellExample
+import TwoCellPolynomial
+import TwoCellCheckerBridge
+import TwoCellCheckedRealization
+import TwoCellObstruction
+
+#print axioms MultivariateWiener.complexCoeffL1_eq_sum_of_support_subset
+#print axioms MultivariateWiener.complexCoeffL1_monomial
+#print axioms MultivariateWiener.complexCoeffL1_zero
+#print axioms MultivariateWiener.complexCoeffL1_C
+#print axioms MultivariateWiener.complexCoeffL1_one
+#print axioms MultivariateWiener.complexCoeffL1_X
+#print axioms MultivariateWiener.complexCoeffL1_nonneg
+#print axioms MultivariateWiener.norm_coeff_le_complexCoeffL1
+#print axioms MultivariateWiener.complexCoeffL1_eq_zero
+#print axioms MultivariateWiener.complexCoeffL1_add_le
+#print axioms MultivariateWiener.complexCoeffL1_neg
+#print axioms MultivariateWiener.complexCoeffL1_sum_le
+#print axioms MultivariateWiener.complexCoeffL1_mul_le
+#print axioms MultivariateWiener.complexCoeffL1_smul
+#print axioms MultivariateWiener.complexCoeffL1_sum_monomials
+#print axioms MultivariateWiener.ComplexPolyL1.norm_eq
+#print axioms MultivariateWiener.ComplexPolyL1.norm_ofPolynomial
+#print axioms MultivariateWiener.ComplexPolyL1.norm_X
+#print axioms LocalAtlas.power_perturbation
+#print axioms LocalAtlas.product_perturbation
+#print axioms LocalAtlas.polynomial_perturbation
+#print axioms LocalAtlas.affine_coefficient_bound
+#print axioms LocalAtlasRational.rationalCoeffL1_eq_sum_of_support_subset
+#print axioms LocalAtlasRational.rationalCoeffL1_monomial
+#print axioms LocalAtlasRational.rationalCoeffL1_zero
+#print axioms LocalAtlasRational.rationalCoeffL1_C
+#print axioms LocalAtlasRational.rationalCoeffL1_one
+#print axioms LocalAtlasRational.rationalCoeffL1_X
+#print axioms LocalAtlasRational.rationalCoeffL1_nonneg
+#print axioms LocalAtlasRational.norm_coeff_le_rationalCoeffL1
+#print axioms LocalAtlasRational.rationalCoeffL1_eq_zero
+#print axioms LocalAtlasRational.rationalCoeffL1_add_le
+#print axioms LocalAtlasRational.rationalCoeffL1_neg
+#print axioms LocalAtlasRational.rationalCoeffL1_sum_le
+#print axioms LocalAtlasRational.rationalCoeffL1_mul_le
+#print axioms LocalAtlasRational.rationalCoeffL1_smul
+#print axioms LocalAtlasRational.rationalCoeffL1_sum_monomials
+#print axioms LocalAtlasRational.RationalPolyL1.norm_eq
+#print axioms LocalAtlasRational.RationalPolyL1.norm_ofPolynomial
+#print axioms LocalAtlasRational.RationalPolyL1.norm_X
+#print axioms LocalAtlas.rat_norm
+#print axioms LocalAtlas.rationalCoeffL1_eq_coeffL1
+#print axioms LocalAtlas.rational_affine_bound
+#print axioms LocalAtlas.variationConstant_nonneg
+#print axioms LocalAtlas.coeffL1_C_mul
+#print axioms LocalAtlas.coeffL1_neg
+#print axioms LocalAtlas.normalized_residual_lt
+#print axioms LocalAtlas.uniform_family_margin
+#print axioms LocalAtlas.polynomial_family_margin
+#print axioms LocalAtlas.realEval_continuous
+#print axioms LocalAtlas.realEval_rational
+#print axioms LocalAtlas.rational_family_margin
+#print axioms LocalAtlas.exists_grid_index
+#print axioms LocalAtlas.gridCenter_mem
+#print axioms LocalAtlas.grid_coverage
+#print axioms LocalAtlas.grid_centers_finite
+#print axioms LocalAtlas.no_common_real_zero_has_grid
+#print axioms LocalAtlas.realEval_affineSubstitution
+#print axioms LocalAtlas.grid_has_no_common_real_zero
+#print axioms LocalAtlas.no_common_real_zero_iff_grid
+#print axioms GridCheckerRealization.residual_eq
+#print axioms GridCheckerRealization.rate_lt_one
+#print axioms GridCheckerRealization.checked_local_realization
+#print axioms GridCheckerRealization.exists_checked_witness
+#print axioms LocalAtlas.exists_checked_grid
+#print axioms TwoCell.denominator_positive
+#print axioms TwoCell.chart_identity
+#print axioms TwoCell.product_identity
+#print axioms TwoCell.residual_identity
+#print axioms TwoCell.residual_bound
+#print axioms TwoCell.stateMap_lipschitz
+#print axioms TwoCell.stateMap_invariant
+#print axioms TwoCell.fixedState_fixed
+#print axioms TwoCell.fixedState_bound
+#print axioms TwoCell.fixedState_unique
+#print axioms TwoCell.existsUnique_fixedState
+#print axioms TwoCell.output_correct
+#print axioms TwoCell.chart_maps_interval
+#print axioms TwoCell.chart_coverage
+#print axioms TwoCell.boundary_agreement
+#print axioms TwoCell.full_interval_realization
+#print axioms TwoCellPolynomial.minus_product
+#print axioms TwoCellPolynomial.plus_product
+#print axioms TwoCellPolynomial.q_formula
+#print axioms TwoCellPolynomial.minus_residual
+#print axioms TwoCellPolynomial.plus_residual
+#print axioms TwoCellPolynomial.coefficientMass_q
+#print axioms TwoCellPolynomial.contraction_rate
+#print axioms TwoCellPolynomial.certified_radius
+#print axioms TwoCellCheckerBridge.checker_accepts
+#print axioms TwoCellCheckerBridge.amplitude
+#print axioms TwoCellCheckerBridge.lipschitz_bound
+#print axioms TwoCellCheckerBridge.eval_formula
+#print axioms TwoCellCheckerBridge.checked_unique_stationary
+#print axioms TwoCellCheckedRealization.outputSyntax_eval
+#print axioms TwoCellCheckedRealization.scalar_fixed_of_checker_fixed
+#print axioms TwoCellCheckedRealization.checked_local_realization
+#print axioms TwoCellCheckedRealization.checked_full_interval_realization
+#print axioms TwoCellCheckedRealization.checked_syntax_output
+#print axioms TwoCellObstruction.root_in_unit_polydisc
+#print axioms TwoCellObstruction.common_zero
+#print axioms TwoCellObstruction.no_full_box_witness
+#print axioms TwoCellObstruction.no_full_box_multiplier
+#print axioms TwoCellObstruction.no_scalar_multiplier

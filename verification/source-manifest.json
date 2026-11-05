@@ -1,0 +1,127 @@
+[
+  {
+    "module": "BoxPolynomialBounds",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "5489ae7326aabaccb8e48fe6b651eac4a5977e72ee301bf7b499d3623c449d68"
+  },
+  {
+    "module": "ComplexPolynomialBounds",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "bb6bc650b2cbcc0edc05e89f21655a2ab34c955369f516544f8d602349758b22"
+  },
+  {
+    "module": "UniformStationaryBanach",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "d773f3fba88060de8a357a39863a3e1d43d65574e720a4d70c1669fc9995b215"
+  },
+  {
+    "module": "BoxContractionChecker",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "63ad841fdb5be45adbc50b50548f478f64423687e0066d3185e438e59d20d44e"
+  },
+  {
+    "module": "ComplexCheckedFixedPoint",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "ae3867a00ff662101b4956b64a951bad0ee0ffc6eb132ea53065f8379d8989c6"
+  },
+  {
+    "module": "PolynomialReadoutAnalytic",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "87e3c0e91fa7c4aa35473f14651ddd256e2d79fd61d40661e59125220b574c44"
+  },
+  {
+    "module": "GenericHolomorphicPole",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "e7e8f0c63a2272ee0933ef89e01e2a6f7501f40fc55d95b34720a13638d144e6"
+  },
+  {
+    "module": "CanonicalInputExpr",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "e56af0a9d3ad6e247175a3cb5d77d1a37ad954cbceecc875ca9189d6012151b1"
+  },
+  {
+    "module": "MultivariateInputExpr",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "ce2b4059e3b52403060756020f92810641c30147341714456c914b0a49de2540"
+  },
+  {
+    "module": "MultivariateBezoutRealization",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "ddc1e6aae47c503ff94426d82a882ac02b0b83ad330e16ef1d91e92dd532b02c"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "provenance": "restored unchanged from corona archive",
+    "sha256": "9284dc5dd81a15fa439f6a01f53b788acb04bc29cf54faef6f2f135c5c0710d3"
+  },
+  {
+    "module": "LocalAtlasPerturbation",
+    "provenance": "new atlas formalization",
+    "sha256": "ecbf6c80069e89a97a2102afe217caa7ce3dc3ee310286a9a25afb2f396944a9"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "provenance": "new atlas formalization",
+    "sha256": "47ce9432fba7ce9cbc4997ba208969a49dd9890ee4e2d27db03aa1f12e91454b"
+  },
+  {
+    "module": "LocalAtlasRational",
+    "provenance": "new atlas formalization",
+    "sha256": "5dc3c76ceaca5245a4ac967d45d33b44861790b296d39d8584a8e5bed2c3807b"
+  },
+  {
+    "module": "LocalAtlasCompactMargin",
+    "provenance": "new atlas formalization",
+    "sha256": "83fc802ce52b6ea3a9d5a44cca4fe861de0a54b94bc8534852f88e096b60f1f2"
+  },
+  {
+    "module": "LocalAtlasRealEvaluation",
+    "provenance": "new atlas formalization",
+    "sha256": "055323532bf3998dc66546da570b6f8c0859269d0cbf6802d96df3b630aba8b9"
+  },
+  {
+    "module": "GridCoverage",
+    "provenance": "new atlas formalization",
+    "sha256": "62c2478797b0dc30b77d51be3cc525e1473bbaf1a2c17fd51873c3b4b555ac04"
+  },
+  {
+    "module": "LocalAtlasCompleteness",
+    "provenance": "new atlas formalization",
+    "sha256": "4f5d717873856b80d063a23d7d860879d1f694390a5f2c58238945b7a085f0fe"
+  },
+  {
+    "module": "GridCheckerRealization",
+    "provenance": "new atlas formalization",
+    "sha256": "25b9dcd8a39fd0ab8264e9b6be23dd82297df59c1d2acdea3e8fc5b12793b4a9"
+  },
+  {
+    "module": "LocalAtlasChecked",
+    "provenance": "new atlas formalization",
+    "sha256": "0134afd35c9ba39f6f331fb0e142c361543fff7d663c9785d119af6d18574c2c"
+  },
+  {
+    "module": "TwoCellExample",
+    "provenance": "new atlas formalization",
+    "sha256": "939e6aff683fcdc6ad20e90e37804c159248c0b22d5999e52b525e4d65b3781a"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "provenance": "new atlas formalization",
+    "sha256": "bac99e82791c1e0d70f8ae2724e4387c0c67020018665f153cb06fb3e994b7b8"
+  },
+  {
+    "module": "TwoCellCheckerBridge",
+    "provenance": "new atlas formalization",
+    "sha256": "a161e8aa98290503aeb3ccb6322b50884ba8cece039a7a05f60f17dce7f489b6"
+  },
+  {
+    "module": "TwoCellCheckedRealization",
+    "provenance": "new atlas formalization",
+    "sha256": "1a6a5067d261c6ad519e4de946feb970277ee6de0f5f4890064089319fe50299"
+  },
+  {
+    "module": "TwoCellObstruction",
+    "provenance": "new atlas formalization",
+    "sha256": "37792ac6579a136cd8138f4f3d5295e232cc0de5ec850b39eca8c2b35d209fd5"
+  }
+]

@@ -1,0 +1,418 @@
+[
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_eq_sum_of_support_subset"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_monomial"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_zero"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_C"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_one"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_X"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_nonneg"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.norm_coeff_le_complexCoeffL1"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_eq_zero"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_add_le"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_neg"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_sum_le"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_mul_le"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_smul"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.complexCoeffL1_sum_monomials"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.ComplexPolyL1.norm_eq"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.ComplexPolyL1.norm_ofPolynomial"
+  },
+  {
+    "module": "LocalAtlasCoefficientNorm",
+    "declaration": "MultivariateWiener.ComplexPolyL1.norm_X"
+  },
+  {
+    "module": "LocalAtlasPerturbation",
+    "declaration": "LocalAtlas.power_perturbation"
+  },
+  {
+    "module": "LocalAtlasPerturbation",
+    "declaration": "LocalAtlas.product_perturbation"
+  },
+  {
+    "module": "LocalAtlasPerturbation",
+    "declaration": "LocalAtlas.polynomial_perturbation"
+  },
+  {
+    "module": "LocalAtlasPerturbation",
+    "declaration": "LocalAtlas.affine_coefficient_bound"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_eq_sum_of_support_subset"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_monomial"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_zero"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_C"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_one"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_X"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_nonneg"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.norm_coeff_le_rationalCoeffL1"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_eq_zero"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_add_le"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_neg"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_sum_le"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_mul_le"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_smul"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.rationalCoeffL1_sum_monomials"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.RationalPolyL1.norm_eq"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.RationalPolyL1.norm_ofPolynomial"
+  },
+  {
+    "module": "LocalAtlasRationalNorm",
+    "declaration": "LocalAtlasRational.RationalPolyL1.norm_X"
+  },
+  {
+    "module": "LocalAtlasRational",
+    "declaration": "LocalAtlas.rat_norm"
+  },
+  {
+    "module": "LocalAtlasRational",
+    "declaration": "LocalAtlas.rationalCoeffL1_eq_coeffL1"
+  },
+  {
+    "module": "LocalAtlasRational",
+    "declaration": "LocalAtlas.rational_affine_bound"
+  },
+  {
+    "module": "LocalAtlasRational",
+    "declaration": "LocalAtlas.variationConstant_nonneg"
+  },
+  {
+    "module": "LocalAtlasRational",
+    "declaration": "LocalAtlas.coeffL1_C_mul"
+  },
+  {
+    "module": "LocalAtlasRational",
+    "declaration": "LocalAtlas.coeffL1_neg"
+  },
+  {
+    "module": "LocalAtlasRational",
+    "declaration": "LocalAtlas.normalized_residual_lt"
+  },
+  {
+    "module": "LocalAtlasCompactMargin",
+    "declaration": "LocalAtlas.uniform_family_margin"
+  },
+  {
+    "module": "LocalAtlasCompactMargin",
+    "declaration": "LocalAtlas.polynomial_family_margin"
+  },
+  {
+    "module": "LocalAtlasRealEvaluation",
+    "declaration": "LocalAtlas.realEval_continuous"
+  },
+  {
+    "module": "LocalAtlasRealEvaluation",
+    "declaration": "LocalAtlas.realEval_rational"
+  },
+  {
+    "module": "LocalAtlasRealEvaluation",
+    "declaration": "LocalAtlas.rational_family_margin"
+  },
+  {
+    "module": "GridCoverage",
+    "declaration": "LocalAtlas.exists_grid_index"
+  },
+  {
+    "module": "GridCoverage",
+    "declaration": "LocalAtlas.gridCenter_mem"
+  },
+  {
+    "module": "GridCoverage",
+    "declaration": "LocalAtlas.grid_coverage"
+  },
+  {
+    "module": "GridCoverage",
+    "declaration": "LocalAtlas.grid_centers_finite"
+  },
+  {
+    "module": "LocalAtlasCompleteness",
+    "declaration": "LocalAtlas.no_common_real_zero_has_grid"
+  },
+  {
+    "module": "LocalAtlasCompleteness",
+    "declaration": "LocalAtlas.realEval_affineSubstitution"
+  },
+  {
+    "module": "LocalAtlasCompleteness",
+    "declaration": "LocalAtlas.grid_has_no_common_real_zero"
+  },
+  {
+    "module": "LocalAtlasCompleteness",
+    "declaration": "LocalAtlas.no_common_real_zero_iff_grid"
+  },
+  {
+    "module": "GridCheckerRealization",
+    "declaration": "GridCheckerRealization.residual_eq"
+  },
+  {
+    "module": "GridCheckerRealization",
+    "declaration": "GridCheckerRealization.rate_lt_one"
+  },
+  {
+    "module": "GridCheckerRealization",
+    "declaration": "GridCheckerRealization.checked_local_realization"
+  },
+  {
+    "module": "GridCheckerRealization",
+    "declaration": "GridCheckerRealization.exists_checked_witness"
+  },
+  {
+    "module": "LocalAtlasChecked",
+    "declaration": "LocalAtlas.exists_checked_grid"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.denominator_positive"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.chart_identity"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.product_identity"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.residual_identity"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.residual_bound"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.stateMap_lipschitz"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.stateMap_invariant"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.fixedState_fixed"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.fixedState_bound"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.fixedState_unique"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.existsUnique_fixedState"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.output_correct"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.chart_maps_interval"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.chart_coverage"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.boundary_agreement"
+  },
+  {
+    "module": "TwoCellExample",
+    "declaration": "TwoCell.full_interval_realization"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "declaration": "TwoCellPolynomial.minus_product"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "declaration": "TwoCellPolynomial.plus_product"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "declaration": "TwoCellPolynomial.q_formula"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "declaration": "TwoCellPolynomial.minus_residual"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "declaration": "TwoCellPolynomial.plus_residual"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "declaration": "TwoCellPolynomial.coefficientMass_q"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "declaration": "TwoCellPolynomial.contraction_rate"
+  },
+  {
+    "module": "TwoCellPolynomial",
+    "declaration": "TwoCellPolynomial.certified_radius"
+  },
+  {
+    "module": "TwoCellCheckerBridge",
+    "declaration": "TwoCellCheckerBridge.checker_accepts"
+  },
+  {
+    "module": "TwoCellCheckerBridge",
+    "declaration": "TwoCellCheckerBridge.amplitude"
+  },
+  {
+    "module": "TwoCellCheckerBridge",
+    "declaration": "TwoCellCheckerBridge.lipschitz_bound"
+  },
+  {
+    "module": "TwoCellCheckerBridge",
+    "declaration": "TwoCellCheckerBridge.eval_formula"
+  },
+  {
+    "module": "TwoCellCheckerBridge",
+    "declaration": "TwoCellCheckerBridge.checked_unique_stationary"
+  },
+  {
+    "module": "TwoCellCheckedRealization",
+    "declaration": "TwoCellCheckedRealization.outputSyntax_eval"
+  },
+  {
+    "module": "TwoCellCheckedRealization",
+    "declaration": "TwoCellCheckedRealization.scalar_fixed_of_checker_fixed"
+  },
+  {
+    "module": "TwoCellCheckedRealization",
+    "declaration": "TwoCellCheckedRealization.checked_local_realization"
+  },
+  {
+    "module": "TwoCellCheckedRealization",
+    "declaration": "TwoCellCheckedRealization.checked_full_interval_realization"
+  },
+  {
+    "module": "TwoCellCheckedRealization",
+    "declaration": "TwoCellCheckedRealization.checked_syntax_output"
+  },
+  {
+    "module": "TwoCellObstruction",
+    "declaration": "TwoCellObstruction.root_in_unit_polydisc"
+  },
+  {
+    "module": "TwoCellObstruction",
+    "declaration": "TwoCellObstruction.common_zero"
+  },
+  {
+    "module": "TwoCellObstruction",
+    "declaration": "TwoCellObstruction.no_full_box_witness"
+  },
+  {
+    "module": "TwoCellObstruction",
+    "declaration": "TwoCellObstruction.no_full_box_multiplier"
+  },
+  {
+    "module": "TwoCellObstruction",
+    "declaration": "TwoCellObstruction.no_scalar_multiplier"
+  }
+]

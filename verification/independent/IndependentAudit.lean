@@ -1,0 +1,12 @@
+import LocalAtlasChecked
+#print axioms LocalAtlas.no_common_real_zero_has_grid
+#print axioms LocalAtlas.grid_has_no_common_real_zero
+#print axioms LocalAtlas.no_common_real_zero_iff_grid
+#print axioms LocalAtlas.exists_checked_grid
+#print axioms LocalAtlas.grid_coverage
+#print axioms LocalAtlas.rational_affine_bound
+#print axioms GridCheckerRealization.checked_local_realization
+#print LocalAtlas.NoCommonRealZero
+#print LocalAtlas.ConstantGridCertificates
+#check LocalAtlas.no_common_real_zero_iff_grid
+#check LocalAtlas.exists_checked_grid

@@ -1,0 +1,24 @@
+{
+  "portable_build": "PASS",
+  "modules_rebuilt_from_source": 25,
+  "named_theorem_lemma_axiom_audits": 104,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "runtime_probes": [
+    "true",
+    "4 / 3",
+    "1 / 4"
+  ],
+  "python_fraction_sympy_tests": "PASS",
+  "independent_general_result_review": {
+    "modules_rebuilt": 20,
+    "central_axiom_audits": 7,
+    "includes_TwoCell_modules": false
+  },
+  "full_mathlib_rebuild": false,
+  "full_historical_lab_rebuild": false,
+  "semantic_corona_final_archive_recovered": false
+}

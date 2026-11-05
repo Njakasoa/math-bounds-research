@@ -1,0 +1,41 @@
+'LocalAtlas.no_common_real_zero_has_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalAtlas.grid_has_no_common_real_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalAtlas.no_common_real_zero_iff_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalAtlas.exists_checked_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalAtlas.grid_coverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LocalAtlas.rational_affine_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridCheckerRealization.checked_local_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+def LocalAtlas.NoCommonRealZero : {m k : ℕ} → (Fin k → MultivariateInputExpr.InputPoly m) → Prop :=
+fun {m k} S => ∀ (u : Fin m → ℝ), (∀ (j : Fin m), |u j| ≤ 1) → ∃ i, MultivariateInputExpr.realEval (S i) u ≠ 0
+def LocalAtlas.ConstantGridCertificates : {m k : ℕ} → (Fin k → MultivariateInputExpr.InputPoly m) → ℕ → Prop :=
+fun {m k} S N =>
+  0 < N ∧
+    ∀ (a : Fin m → Fin N),
+      ∃ i t,
+        MultivariateInputExpr.coeffL1
+            (1 -
+              LocalAtlas.affineSubstitution (S i) (fun j => LocalAtlas.gridCenter N (a j)) (1 / ↑N) *
+                MvPolynomial.C t) <
+          1
+LocalAtlas.no_common_real_zero_iff_grid {m k : ℕ} (S : Fin k → MultivariateInputExpr.InputPoly m) :
+  LocalAtlas.NoCommonRealZero S ↔ ∃ N, LocalAtlas.ConstantGridCertificates S N
+LocalAtlas.exists_checked_grid {m k : ℕ} (S : Fin k → MultivariateInputExpr.InputPoly m)
+  (hS : LocalAtlas.NoCommonRealZero S) :
+  ∃ N,
+    0 < N ∧
+      ∀ (a : Fin m → Fin N),
+        have c := fun j => LocalAtlas.gridCenter N (a j);
+        have A := GridCheckerRealization.localFamily S c (1 / ↑N);
+        ∃ T,
+          MultivariateBezoutRealization.rate A T < 1 ∧
+            BoxContractionChecker.check (MultivariateBezoutRealization.stateMap A T) 1
+                  (MultivariateBezoutRealization.radius A T) (MultivariateBezoutRealization.rate A T) =
+                true ∧
+              ∀ v ∈ BoxContractionChecker.boxSet m 1,
+                ∃! x,
+                  x ∈ BoxContractionChecker.boxSet 1 (MultivariateBezoutRealization.radius A T) ∧
+                    BoxContractionChecker.map (MultivariateBezoutRealization.stateMap A T) v x = x ∧
+                      ∑ j,
+                          (MultivariateInputExpr.realEval (S j) fun l => ↑(c l) + ↑(1 / ↑N) * v l) *
+                            BoxPolynomialBounds.Expr.eval v x (MultivariateBezoutRealization.outputSyntax T j) =
+                        1
