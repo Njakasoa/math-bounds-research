@@ -1,0 +1,2768 @@
+{
+  "audit_date": "2026-11-05",
+  "scope": "Descriptive audit only; original archive opened read-only, no raw data modified or excluded.",
+  "provenance": {
+    "archive_path": "slac25.omex (external original input)",
+    "sha256": "6404d43ced75108a126f1f071057b8600e4aeecefb720c53dc29607bc774afa3",
+    "expected_sha256": "6404d43ced75108a126f1f071057b8600e4aeecefb720c53dc29607bc774afa3",
+    "size_bytes": 13545,
+    "dataset_url": "https://doi.org/10.18419/DARUS-3867",
+    "file_url": "https://doi.org/10.18419/DARUS-3867/12",
+    "license": "CC BY 4.0 according to provided provenance report; not embedded in this archive",
+    "dataset_citation": "Max Häussler, DaRUS-3867, version 1, published 2024-01-09, as recorded in provided provenance report",
+    "source_of_external_provenance": "Provided report only; no fresh external source fetch in this independent archive audit."
+  },
+  "namespaces": {
+    "sbml": "http://www.sbml.org/sbml/level3/version2/core",
+    "enz": "http://sbml.org/enzymeml/version2",
+    "manifest": "http://identifiers.org/combine.specifications/omex-manifest"
+  },
+  "conditions": [
+    {
+      "measurement": {
+        "file": "file0",
+        "id": "m0",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "csv_member": "data/m0.csv",
+      "format_id": "format0",
+      "schema": [
+        {
+          "type": "time",
+          "unit": "u2",
+          "index": "0"
+        },
+        {
+          "replica": "A2",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "1",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "B2",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "2",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "C2",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "3",
+          "isCalculated": "False"
+        }
+      ],
+      "csv_header": false,
+      "delimiter": ",",
+      "blank_rows": 0,
+      "rows": 11,
+      "columns": 4,
+      "observation_count": 33,
+      "replica_labels": [
+        "A2",
+        "B2",
+        "C2"
+      ],
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "5.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "nominal_abts": 5.0,
+      "first_row_time": 0.0,
+      "measured_t0_by_replica": {
+        "A2": 4.046716568731849,
+        "B2": 3.7848488080948997,
+        "C2": 3.9703384718794066
+      },
+      "t0_summary": {
+        "n": 3,
+        "mean": 3.9339679495687183,
+        "sample_sd": 0.13466919538304545,
+        "min": 3.7848488080948997,
+        "max": 4.046716568731849
+      },
+      "t0_mean_minus_nominal": -1.0660320504312817,
+      "t0_mean_relative_difference_percent": -21.320641008625635,
+      "time_grid": [
+        0.0,
+        1.4666666666666668,
+        2.9166666666666665,
+        4.366666666666666,
+        5.833333333333333,
+        7.483333333333333,
+        8.983333333333333,
+        10.483333333333333,
+        11.983333333333333,
+        13.483333333333333,
+        14.983333333333333
+      ],
+      "time_steps": [
+        1.4666666666666668,
+        1.4499999999999997,
+        1.4499999999999997,
+        1.4666666666666668,
+        1.6500000000000004,
+        1.4999999999999991,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "duplicate_times": 0,
+      "strictly_increasing_time": true,
+      "missing_cells": 0,
+      "nonfinite_cells": 0,
+      "negative_concentrations": 0,
+      "zero_concentrations": 0,
+      "observation_range": {
+        "min": 2.0390637371819036,
+        "max": 4.046716568731849
+      },
+      "pointwise_replicate_stats": [
+        {
+          "n": 3,
+          "mean": 3.9339679495687183,
+          "sample_sd": 0.13466919538304545,
+          "min": 3.7848488080948997,
+          "max": 4.046716568731849,
+          "measurement": "m0",
+          "row_1_based": 1,
+          "time": 0.0,
+          "sample_cv_percent": 3.423240786641621,
+          "range": 0.2618677606369495
+        },
+        {
+          "n": 3,
+          "mean": 3.5557145175375693,
+          "sample_sd": 0.09651903379657539,
+          "min": 3.45205852895211,
+          "max": 3.6430037710832193,
+          "measurement": "m0",
+          "row_1_based": 2,
+          "time": 1.4666666666666668,
+          "sample_cv_percent": 2.7144764665588927,
+          "range": 0.19094524213110908
+        },
+        {
+          "n": 3,
+          "mean": 3.272024443514208,
+          "sample_sd": 0.06001136181263411,
+          "min": 3.2120130817015737,
+          "max": 3.332035805326842,
+          "measurement": "m0",
+          "row_1_based": 3,
+          "time": 2.9166666666666665,
+          "sample_cv_percent": 1.834074373484231,
+          "range": 0.12002272362526822
+        },
+        {
+          "n": 3,
+          "mean": 3.0028825784151207,
+          "sample_sd": 0.06908006027101117,
+          "min": 2.928323007678212,
+          "max": 3.064712466343289,
+          "measurement": "m0",
+          "row_1_based": 4,
+          "time": 4.366666666666666,
+          "sample_cv_percent": 2.300458258593337,
+          "range": 0.1363894586650769
+        },
+        {
+          "n": 3,
+          "mean": 2.7792038662043934,
+          "sample_sd": 0.07798487976054942,
+          "min": 2.6937331387742773,
+          "max": 2.846489332479165,
+          "measurement": "m0",
+          "row_1_based": 5,
+          "time": 5.833333333333333,
+          "sample_cv_percent": 2.8060150861496433,
+          "range": 0.1527561937048878
+        },
+        {
+          "n": 3,
+          "mean": 2.5718918890334748,
+          "sample_sd": 0.0726500614155098,
+          "min": 2.491876739949962,
+          "max": 2.6337217769616434,
+          "measurement": "m0",
+          "row_1_based": 6,
+          "time": 7.483333333333333,
+          "sample_cv_percent": 2.824771201514692,
+          "range": 0.14184503701168127
+        },
+        {
+          "n": 3,
+          "mean": 2.422772747559656,
+          "sample_sd": 0.07203291899117747,
+          "min": 2.3445761245916783,
+          "max": 2.486421161603359,
+          "measurement": "m0",
+          "row_1_based": 7,
+          "time": 8.983333333333333,
+          "sample_cv_percent": 2.9731603619750477,
+          "range": 0.14184503701168083
+        },
+        {
+          "n": 3,
+          "mean": 2.3245723373208,
+          "sample_sd": 0.05730521767038631,
+          "min": 2.268198027739235,
+          "max": 2.3827651730179,
+          "measurement": "m0",
+          "row_1_based": 8,
+          "time": 10.483333333333333,
+          "sample_cv_percent": 2.465193995056905,
+          "range": 0.11456714527866518
+        },
+        {
+          "n": 3,
+          "mean": 2.2572868710460283,
+          "sample_sd": 0.07134094407423512,
+          "min": 2.2081866659266005,
+          "max": 2.3391205462450753,
+          "measurement": "m0",
+          "row_1_based": 9,
+          "time": 11.983333333333333,
+          "sample_cv_percent": 3.1604730878169542,
+          "range": 0.13093388031847475
+        },
+        {
+          "n": 3,
+          "mean": 2.1845458264246536,
+          "sample_sd": 0.07427070825328609,
+          "min": 2.1263529907275536,
+          "max": 2.268198027739235,
+          "measurement": "m0",
+          "row_1_based": 10,
+          "time": 13.483333333333333,
+          "sample_cv_percent": 3.3998237690825452,
+          "range": 0.14184503701168127
+        },
+        {
+          "n": 3,
+          "mean": 2.0972565728790036,
+          "sample_sd": 0.054918284354002374,
+          "min": 2.0390637371819036,
+          "max": 2.148175304113966,
+          "measurement": "m0",
+          "row_1_based": 11,
+          "time": 14.983333333333333,
+          "sample_cv_percent": 2.6185772911233958,
+          "range": 0.10911156693206259
+        }
+      ],
+      "positive_time_increments": [],
+      "final_row_summary": {
+        "n": 3,
+        "mean": 2.0972565728790036,
+        "sample_sd": 0.054918284354002374,
+        "min": 2.0390637371819036,
+        "max": 2.148175304113966
+      }
+    },
+    {
+      "measurement": {
+        "file": "file1",
+        "id": "m1",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "csv_member": "data/m1.csv",
+      "format_id": "format1",
+      "schema": [
+        {
+          "type": "time",
+          "unit": "u2",
+          "index": "0"
+        },
+        {
+          "replica": "A3",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "1",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "B3",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "2",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "C3",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "3",
+          "isCalculated": "False"
+        }
+      ],
+      "csv_header": false,
+      "delimiter": ",",
+      "blank_rows": 0,
+      "rows": 11,
+      "columns": 4,
+      "observation_count": 33,
+      "replica_labels": [
+        "A3",
+        "B3",
+        "C3"
+      ],
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "10.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "nominal_abts": 10.0,
+      "first_row_time": 0.0,
+      "measured_t0_by_replica": {
+        "A3": 8.307523257428882,
+        "B3": 8.220234003883233,
+        "C3": 8.400268089321136
+      },
+      "t0_summary": {
+        "n": 3,
+        "mean": 8.309341783544417,
+        "sample_sd": 0.09003081837787659,
+        "min": 8.220234003883233,
+        "max": 8.400268089321136
+      },
+      "t0_mean_minus_nominal": -1.6906582164555832,
+      "t0_mean_relative_difference_percent": -16.906582164555832,
+      "time_grid": [
+        0.0,
+        1.4666666666666668,
+        2.9166666666666665,
+        4.366666666666666,
+        5.833333333333333,
+        7.483333333333333,
+        8.983333333333333,
+        10.483333333333333,
+        11.983333333333333,
+        13.483333333333333,
+        14.983333333333333
+      ],
+      "time_steps": [
+        1.4666666666666668,
+        1.4499999999999997,
+        1.4499999999999997,
+        1.4666666666666668,
+        1.6500000000000004,
+        1.4999999999999991,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "duplicate_times": 0,
+      "strictly_increasing_time": true,
+      "missing_cells": 0,
+      "nonfinite_cells": 0,
+      "negative_concentrations": 0,
+      "zero_concentrations": 0,
+      "observation_range": {
+        "min": 4.71229712701743,
+        "max": 8.400268089321136
+      },
+      "pointwise_replicate_stats": [
+        {
+          "n": 3,
+          "mean": 8.309341783544417,
+          "sample_sd": 0.09003081837787659,
+          "min": 8.220234003883233,
+          "max": 8.400268089321136,
+          "measurement": "m1",
+          "row_1_based": 1,
+          "time": 0.0,
+          "sample_cv_percent": 1.0834891706605576,
+          "range": 0.180034085437903
+        },
+        {
+          "n": 3,
+          "mean": 7.601935124601546,
+          "sample_sd": 0.10211311568683165,
+          "min": 7.527375553864636,
+          "max": 7.718320795995745,
+          "measurement": "m1",
+          "row_1_based": 2,
+          "time": 1.4666666666666668,
+          "sample_cv_percent": 1.3432516065070195,
+          "range": 0.19094524213110908
+        },
+        {
+          "n": 3,
+          "mean": 7.081836655558716,
+          "sample_sd": 0.12018793048065247,
+          "min": 6.943628670778104,
+          "max": 7.161851804642229,
+          "measurement": "m1",
+          "row_1_based": 3,
+          "time": 2.9166666666666665,
+          "sample_cv_percent": 1.697129379372424,
+          "range": 0.21822313386412517
+        },
+        {
+          "n": 3,
+          "mean": 6.643571861714933,
+          "sample_sd": 0.13671640150413872,
+          "min": 6.501726824703251,
+          "max": 6.774505742033408,
+          "measurement": "m1",
+          "row_1_based": 4,
+          "time": 4.366666666666666,
+          "sample_cv_percent": 2.0578749556695177,
+          "range": 0.27277891733015647
+        },
+        {
+          "n": 3,
+          "mean": 6.254407272990577,
+          "sample_sd": 0.08475190186548315,
+          "min": 6.185303280600271,
+          "max": 6.348970630998364,
+          "measurement": "m1",
+          "row_1_based": 5,
+          "time": 5.833333333333333,
+          "sample_cv_percent": 1.3550748802605332,
+          "range": 0.163667350398093
+        },
+        {
+          "n": 3,
+          "mean": 6.063462030859467,
+          "sample_sd": 0.21557014449231396,
+          "min": 5.830690688071068,
+          "max": 6.256225799106111,
+          "measurement": "m1",
+          "row_1_based": 6,
+          "time": 7.483333333333333,
+          "sample_cv_percent": 3.555232034029211,
+          "range": 0.4255351110350425
+        },
+        {
+          "n": 3,
+          "mean": 5.688845651059387,
+          "sample_sd": 0.12284140545286004,
+          "min": 5.547000614047706,
+          "max": 5.759768169565228,
+          "measurement": "m1",
+          "row_1_based": 7,
+          "time": 8.983333333333333,
+          "sample_cv_percent": 2.159337992057919,
+          "range": 0.21276755551752213
+        },
+        {
+          "n": 3,
+          "mean": 5.379696211418544,
+          "sample_sd": 0.0794968436608318,
+          "min": 5.323321901836978,
+          "max": 5.470622517195263,
+          "measurement": "m1",
+          "row_1_based": 8,
+          "time": 10.483333333333333,
+          "sample_cv_percent": 1.477719940618537,
+          "range": 0.14730061535828476
+        },
+        {
+          "n": 3,
+          "mean": 5.323321901836978,
+          "sample_sd": 0.1918006313299387,
+          "min": 5.105098767972853,
+          "max": 5.465166938848658,
+          "measurement": "m1",
+          "row_1_based": 9,
+          "time": 11.983333333333333,
+          "sample_cv_percent": 3.603025232491612,
+          "range": 0.3600681708758051
+        },
+        {
+          "n": 3,
+          "mean": 5.025083618889341,
+          "sample_sd": 0.10915702061740518,
+          "min": 4.914153525841744,
+          "max": 5.132376659705869,
+          "measurement": "m1",
+          "row_1_based": 10,
+          "time": 13.483333333333333,
+          "sample_cv_percent": 2.1722428698914147,
+          "range": 0.21822313386412517
+        },
+        {
+          "n": 3,
+          "mean": 4.81231606337182,
+          "sample_sd": 0.08869859963394415,
+          "min": 4.71229712701743,
+          "max": 4.881420055762126,
+          "measurement": "m1",
+          "row_1_based": 11,
+          "time": 14.983333333333333,
+          "sample_cv_percent": 1.8431582312113595,
+          "range": 0.16912292874469603
+        }
+      ],
+      "positive_time_increments": [
+        {
+          "replica": "B3",
+          "from_row": 8,
+          "to_row": 9,
+          "from_time": 10.483333333333333,
+          "to_time": 11.983333333333333,
+          "from_value": 5.3451442152233914,
+          "to_value": 5.399699998689423,
+          "increase": 0.054555783466031293
+        }
+      ],
+      "final_row_summary": {
+        "n": 3,
+        "mean": 4.81231606337182,
+        "sample_sd": 0.08869859963394415,
+        "min": 4.71229712701743,
+        "max": 4.881420055762126
+      }
+    },
+    {
+      "measurement": {
+        "file": "file2",
+        "id": "m2",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "csv_member": "data/m2.csv",
+      "format_id": "format2",
+      "schema": [
+        {
+          "type": "time",
+          "unit": "u2",
+          "index": "0"
+        },
+        {
+          "replica": "A4",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "1",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "B4",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "2",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "C4",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "3",
+          "isCalculated": "False"
+        }
+      ],
+      "csv_header": false,
+      "delimiter": ",",
+      "blank_rows": 0,
+      "rows": 11,
+      "columns": 4,
+      "observation_count": 33,
+      "replica_labels": [
+        "A4",
+        "B4",
+        "C4"
+      ],
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "15.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "nominal_abts": 15.0,
+      "first_row_time": 0.0,
+      "measured_t0_by_replica": {
+        "A4": 13.430311324889207,
+        "B4": 12.933853695348322,
+        "C4": 12.977498322121148
+      },
+      "t0_summary": {
+        "n": 3,
+        "mean": 13.113887780786225,
+        "sample_sd": 0.2748983590503101,
+        "min": 12.933853695348322,
+        "max": 13.430311324889207
+      },
+      "t0_mean_minus_nominal": -1.886112219213775,
+      "t0_mean_relative_difference_percent": -12.574081461425164,
+      "time_grid": [
+        0.0,
+        1.4666666666666668,
+        2.9166666666666665,
+        4.366666666666666,
+        5.833333333333333,
+        7.483333333333333,
+        8.983333333333333,
+        10.483333333333333,
+        11.983333333333333,
+        13.483333333333333,
+        14.983333333333333
+      ],
+      "time_steps": [
+        1.4666666666666668,
+        1.4499999999999997,
+        1.4499999999999997,
+        1.4666666666666668,
+        1.6500000000000004,
+        1.4999999999999991,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "duplicate_times": 0,
+      "strictly_increasing_time": true,
+      "missing_cells": 0,
+      "nonfinite_cells": 0,
+      "negative_concentrations": 0,
+      "zero_concentrations": 0,
+      "observation_range": {
+        "min": 8.094755701911362,
+        "max": 13.430311324889207
+      },
+      "pointwise_replicate_stats": [
+        {
+          "n": 3,
+          "mean": 13.113887780786225,
+          "sample_sd": 0.2748983590503101,
+          "min": 12.933853695348322,
+          "max": 13.430311324889207,
+          "measurement": "m2",
+          "row_1_based": 1,
+          "time": 0.0,
+          "sample_cv_percent": 2.096238458385138,
+          "range": 0.4964576295408847
+        },
+        {
+          "n": 3,
+          "mean": 12.188257987979231,
+          "sample_sd": 0.3247940588921795,
+          "min": 11.946394014613158,
+          "max": 12.55741878943271,
+          "measurement": "m2",
+          "row_1_based": 2,
+          "time": 1.4666666666666668,
+          "sample_cv_percent": 2.664811158514287,
+          "range": 0.6110247748195512
+        },
+        {
+          "n": 3,
+          "mean": 11.449936385072276,
+          "sample_sd": 0.3429645758662189,
+          "min": 11.209890937821738,
+          "max": 11.842738026027702,
+          "measurement": "m2",
+          "row_1_based": 3,
+          "time": 2.9166666666666665,
+          "sample_cv_percent": 2.9953404484705706,
+          "range": 0.6328470882059634
+        },
+        {
+          "n": 3,
+          "mean": 10.871645080332346,
+          "sample_sd": 0.37109965169593406,
+          "min": 10.615232898042,
+          "max": 11.297180191367389,
+          "measurement": "m2",
+          "row_1_based": 4,
+          "time": 4.366666666666666,
+          "sample_cv_percent": 3.41346363824259,
+          "range": 0.6819472933253881
+        },
+        {
+          "n": 3,
+          "mean": 10.387917133600203,
+          "sample_sd": 0.37806541265015137,
+          "min": 10.135142003540926,
+          "max": 10.822544875212918,
+          "measurement": "m2",
+          "row_1_based": 5,
+          "time": 5.833333333333333,
+          "sample_cv_percent": 3.639472743070708,
+          "range": 0.687402871671992
+        },
+        {
+          "n": 3,
+          "mean": 9.984204335951572,
+          "sample_sd": 0.382292945831714,
+          "min": 9.633228795653439,
+          "max": 10.391554185831273,
+          "measurement": "m2",
+          "row_1_based": 6,
+          "time": 7.483333333333333,
+          "sample_cv_percent": 3.8289775826716244,
+          "range": 0.7583253901778342
+        },
+        {
+          "n": 3,
+          "mean": 9.562306277147597,
+          "sample_sd": 0.4158067021732899,
+          "min": 9.316805251550457,
+          "max": 10.042397171648672,
+          "measurement": "m2",
+          "row_1_based": 7,
+          "time": 8.983333333333333,
+          "sample_cv_percent": 4.3483934745637915,
+          "range": 0.7255919200982142
+        },
+        {
+          "n": 3,
+          "mean": 9.229515998004809,
+          "sample_sd": 0.4412952543735716,
+          "min": 8.934914767288241,
+          "max": 9.736884784238898,
+          "measurement": "m2",
+          "row_1_based": 8,
+          "time": 10.483333333333333,
+          "sample_cv_percent": 4.781347737725018,
+          "range": 0.8019700169506567
+        },
+        {
+          "n": 3,
+          "mean": 8.933096241172706,
+          "sample_sd": 0.4704573103746982,
+          "min": 8.629402379878465,
+          "max": 9.475017023601948,
+          "measurement": "m2",
+          "row_1_based": 9,
+          "time": 11.983333333333333,
+          "sample_cv_percent": 5.266452948378156,
+          "range": 0.8456146437234828
+        },
+        {
+          "n": 3,
+          "mean": 8.66031732384255,
+          "sample_sd": 0.4753663441599126,
+          "min": 8.351167884201706,
+          "max": 9.207693684618397,
+          "measurement": "m2",
+          "row_1_based": 10,
+          "time": 13.483333333333333,
+          "sample_cv_percent": 5.48901762353662,
+          "range": 0.8565258004166907
+        },
+        {
+          "n": 3,
+          "mean": 8.422090402707548,
+          "sample_sd": 0.4933001396151033,
+          "min": 8.094755701911362,
+          "max": 8.989470550754271,
+          "measurement": "m2",
+          "row_1_based": 11,
+          "time": 14.983333333333333,
+          "sample_cv_percent": 5.857217341867006,
+          "range": 0.8947148488429093
+        }
+      ],
+      "positive_time_increments": [],
+      "final_row_summary": {
+        "n": 3,
+        "mean": 8.422090402707548,
+        "sample_sd": 0.4933001396151033,
+        "min": 8.094755701911362,
+        "max": 8.989470550754271
+      }
+    },
+    {
+      "measurement": {
+        "file": "file3",
+        "id": "m3",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "csv_member": "data/m3.csv",
+      "format_id": "format3",
+      "schema": [
+        {
+          "type": "time",
+          "unit": "u2",
+          "index": "0"
+        },
+        {
+          "replica": "A5",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "1",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "B5",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "2",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "C5",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "3",
+          "isCalculated": "False"
+        }
+      ],
+      "csv_header": false,
+      "delimiter": ",",
+      "blank_rows": 0,
+      "rows": 11,
+      "columns": 4,
+      "observation_count": 33,
+      "replica_labels": [
+        "A5",
+        "B5",
+        "C5"
+      ],
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "25.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "nominal_abts": 25.0,
+      "first_row_time": 0.0,
+      "measured_t0_by_replica": {
+        "A5": 22.3501819215853,
+        "B5": 22.273803824732855,
+        "C5": 22.142869944414382
+      },
+      "t0_summary": {
+        "n": 3,
+        "mean": 22.255618563577514,
+        "sample_sd": 0.10484556148018262,
+        "min": 22.142869944414382,
+        "max": 22.3501819215853
+      },
+      "t0_mean_minus_nominal": -2.7443814364224863,
+      "t0_mean_relative_difference_percent": -10.977525745689945,
+      "time_grid": [
+        0.0,
+        1.4666666666666668,
+        2.9166666666666665,
+        4.366666666666666,
+        5.833333333333333,
+        7.483333333333333,
+        8.983333333333333,
+        10.483333333333333,
+        11.983333333333333,
+        13.483333333333333,
+        14.983333333333333
+      ],
+      "time_steps": [
+        1.4666666666666668,
+        1.4499999999999997,
+        1.4499999999999997,
+        1.4666666666666668,
+        1.6500000000000004,
+        1.4999999999999991,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "duplicate_times": 0,
+      "strictly_increasing_time": true,
+      "missing_cells": 0,
+      "nonfinite_cells": 0,
+      "negative_concentrations": 0,
+      "zero_concentrations": 0,
+      "observation_range": {
+        "min": 15.416141843052742,
+        "max": 22.3501819215853
+      },
+      "pointwise_replicate_stats": [
+        {
+          "n": 3,
+          "mean": 22.255618563577514,
+          "sample_sd": 0.10484556148018262,
+          "min": 22.142869944414382,
+          "max": 22.3501819215853,
+          "measurement": "m3",
+          "row_1_based": 1,
+          "time": 0.0,
+          "sample_cv_percent": 0.4710970453625939,
+          "range": 0.20731197717091732
+        },
+        {
+          "n": 3,
+          "mean": 20.991742913281122,
+          "sample_sd": 0.07380169593277741,
+          "min": 20.91536481642868,
+          "max": 21.062665431786964,
+          "measurement": "m3",
+          "row_1_based": 2,
+          "time": 1.4666666666666668,
+          "sample_cv_percent": 0.3515748846470691,
+          "range": 0.14730061535828298
+        },
+        {
+          "n": 3,
+          "mean": 19.973368288581877,
+          "sample_sd": 0.07407006662173991,
+          "min": 19.895171665613898,
+          "max": 20.042472280972184,
+          "measurement": "m3",
+          "row_1_based": 3,
+          "time": 2.9166666666666665,
+          "sample_cv_percent": 0.3708441438196649,
+          "range": 0.14730061535828654
+        },
+        {
+          "n": 3,
+          "mean": 19.14593890601374,
+          "sample_sd": 0.09279830254062213,
+          "min": 19.05501260023702,
+          "max": 19.240502264021526,
+          "measurement": "m3",
+          "row_1_based": 4,
+          "time": 4.366666666666666,
+          "sample_cv_percent": 0.48468922310973306,
+          "range": 0.18548966378450515
+        },
+        {
+          "n": 3,
+          "mean": 18.483995399959227,
+          "sample_sd": 0.1381601205420238,
+          "min": 18.378520885258233,
+          "max": 18.640388645895182,
+          "measurement": "m3",
+          "row_1_based": 5,
+          "time": 5.833333333333333,
+          "sample_cv_percent": 0.7474580984927565,
+          "range": 0.2618677606369495
+        },
+        {
+          "n": 3,
+          "mean": 17.772951688785284,
+          "sample_sd": 0.09835183732994379,
+          "min": 17.691118013586237,
+          "max": 17.88206325571735,
+          "measurement": "m3",
+          "row_1_based": 6,
+          "time": 7.483333333333333,
+          "sample_cv_percent": 0.5533793094818555,
+          "range": 0.19094524213111086
+        },
+        {
+          "n": 3,
+          "mean": 17.221938275778374,
+          "sample_sd": 0.10191861433750816,
+          "min": 17.12919344388612,
+          "max": 17.331049842710435,
+          "measurement": "m3",
+          "row_1_based": 7,
+          "time": 8.983333333333333,
+          "sample_cv_percent": 0.5917952596593067,
+          "range": 0.20185639882431516
+        },
+        {
+          "n": 3,
+          "mean": 16.745484433508366,
+          "sample_sd": 0.09359669668263126,
+          "min": 16.660013706078253,
+          "max": 16.845503369862758,
+          "measurement": "m3",
+          "row_1_based": 8,
+          "time": 10.483333333333333,
+          "sample_cv_percent": 0.558936930455954,
+          "range": 0.18548966378450515
+        },
+        {
+          "n": 3,
+          "mean": 16.28539732627817,
+          "sample_sd": 0.1102422869448725,
+          "min": 16.18537838992378,
+          "max": 16.403601523787902,
+          "measurement": "m3",
+          "row_1_based": 9,
+          "time": 11.983333333333333,
+          "sample_cv_percent": 0.6769394982275636,
+          "range": 0.21822313386412162
+        },
+        {
+          "n": 3,
+          "mean": 15.887140106976142,
+          "sample_sd": 0.10833593650997413,
+          "min": 15.792576748968354,
+          "max": 16.005344304485877,
+          "measurement": "m3",
+          "row_1_based": 10,
+          "time": 13.483333333333333,
+          "sample_cv_percent": 0.6819096186002862,
+          "range": 0.21276755551752302
+        },
+        {
+          "n": 3,
+          "mean": 15.516160779407132,
+          "sample_sd": 0.1102422869448725,
+          "min": 15.416141843052742,
+          "max": 15.634364976916864,
+          "measurement": "m3",
+          "row_1_based": 11,
+          "time": 14.983333333333333,
+          "sample_cv_percent": 0.710499771897084,
+          "range": 0.21822313386412162
+        }
+      ],
+      "positive_time_increments": [],
+      "final_row_summary": {
+        "n": 3,
+        "mean": 15.516160779407132,
+        "sample_sd": 0.1102422869448725,
+        "min": 15.416141843052742,
+        "max": 15.634364976916864
+      }
+    },
+    {
+      "measurement": {
+        "file": "file4",
+        "id": "m4",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "csv_member": "data/m4.csv",
+      "format_id": "format4",
+      "schema": [
+        {
+          "type": "time",
+          "unit": "u2",
+          "index": "0"
+        },
+        {
+          "replica": "A6",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "1",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "B6",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "2",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "C6",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "3",
+          "isCalculated": "False"
+        }
+      ],
+      "csv_header": false,
+      "delimiter": ",",
+      "blank_rows": 0,
+      "rows": 11,
+      "columns": 4,
+      "observation_count": 33,
+      "replica_labels": [
+        "A6",
+        "B6",
+        "C6"
+      ],
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "50.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "nominal_abts": 50.0,
+      "first_row_time": 0.0,
+      "measured_t0_by_replica": {
+        "A6": 46.698428082475004,
+        "B6": 46.496571683650686,
+        "C6": 52.09399506726548
+      },
+      "t0_summary": {
+        "n": 3,
+        "mean": 48.429664944463724,
+        "sample_sd": 3.175007549296669,
+        "min": 46.496571683650686,
+        "max": 52.09399506726548
+      },
+      "t0_mean_minus_nominal": -1.570335055536276,
+      "t0_mean_relative_difference_percent": -3.140670111072552,
+      "time_grid": [
+        0.0,
+        1.4666666666666668,
+        2.9166666666666665,
+        4.366666666666666,
+        5.833333333333333,
+        7.483333333333333,
+        8.983333333333333,
+        10.483333333333333,
+        11.983333333333333,
+        13.483333333333333,
+        14.983333333333333
+      ],
+      "time_steps": [
+        1.4666666666666668,
+        1.4499999999999997,
+        1.4499999999999997,
+        1.4666666666666668,
+        1.6500000000000004,
+        1.4999999999999991,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "duplicate_times": 0,
+      "strictly_increasing_time": true,
+      "missing_cells": 0,
+      "nonfinite_cells": 0,
+      "negative_concentrations": 0,
+      "zero_concentrations": 0,
+      "observation_range": {
+        "min": 36.338284802275695,
+        "max": 52.09399506726548
+      },
+      "pointwise_replicate_stats": [
+        {
+          "n": 3,
+          "mean": 48.429664944463724,
+          "sample_sd": 3.175007549296669,
+          "min": 46.496571683650686,
+          "max": 52.09399506726548,
+          "measurement": "m4",
+          "row_1_based": 1,
+          "time": 0.0,
+          "sample_cv_percent": 6.555914753772465,
+          "range": 5.597423383614796
+        },
+        {
+          "n": 3,
+          "mean": 46.40928243010504,
+          "sample_sd": 2.8396324599361495,
+          "min": 44.74533103439109,
+          "max": 49.68808501641351,
+          "measurement": "m4",
+          "row_1_based": 2,
+          "time": 1.4666666666666668,
+          "sample_cv_percent": 6.1186734878152755,
+          "range": 4.942753982022417
+        },
+        {
+          "n": 3,
+          "mean": 44.847168496861016,
+          "sample_sd": 2.6474586360359256,
+          "min": 43.29960277254126,
+          "max": 47.90411089707429,
+          "measurement": "m4",
+          "row_1_based": 3,
+          "time": 2.9166666666666665,
+          "sample_cv_percent": 5.90329049697135,
+          "range": 4.604508124533027
+        },
+        {
+          "n": 3,
+          "mean": 43.586929898795695,
+          "sample_sd": 2.5859920927575315,
+          "min": 42.083008801248766,
+          "max": 46.57294978050314,
+          "measurement": "m4",
+          "row_1_based": 4,
+          "time": 4.366666666666666,
+          "sample_cv_percent": 5.932953063594834,
+          "range": 4.489940979254371
+        },
+        {
+          "n": 3,
+          "mean": 42.46308075939545,
+          "sample_sd": 2.496273384494351,
+          "min": 41.002804288621356,
+          "max": 45.34544465251743,
+          "measurement": "m4",
+          "row_1_based": 5,
+          "time": 5.833333333333333,
+          "sample_cv_percent": 5.878691182674072,
+          "range": 4.3426403638960736
+        },
+        {
+          "n": 3,
+          "mean": 41.34832425057289,
+          "sample_sd": 2.351438652234419,
+          "min": 39.96624440276676,
+          "max": 44.0633837410657,
+          "measurement": "m4",
+          "row_1_based": 6,
+          "time": 7.483333333333333,
+          "sample_cv_percent": 5.686901935818691,
+          "range": 4.097139338298938
+        },
+        {
+          "n": 3,
+          "mean": 40.46088350619211,
+          "sample_sd": 2.3027215742380305,
+          "min": 39.09880744565687,
+          "max": 43.11956868710336,
+          "measurement": "m4",
+          "row_1_based": 7,
+          "time": 8.983333333333333,
+          "sample_cv_percent": 5.691229095097795,
+          "range": 4.020761241446493
+        },
+        {
+          "n": 3,
+          "mean": 39.69528401155214,
+          "sample_sd": 2.2995721133005524,
+          "min": 38.33502647713243,
+          "max": 42.350332140232325,
+          "measurement": "m4",
+          "row_1_based": 8,
+          "time": 10.483333333333333,
+          "sample_cv_percent": 5.793061242820003,
+          "range": 4.015305663099895
+        },
+        {
+          "n": 3,
+          "mean": 38.98605882649373,
+          "sample_sd": 2.3233228031073128,
+          "min": 37.603978978687614,
+          "max": 41.66838484690693,
+          "measurement": "m4",
+          "row_1_based": 9,
+          "time": 11.983333333333333,
+          "sample_cv_percent": 5.959368228133011,
+          "range": 4.064405868219318
+        },
+        {
+          "n": 3,
+          "mean": 38.37685257778972,
+          "sample_sd": 2.3783902327914754,
+          "min": 36.965676312135045,
+          "max": 41.122827012246624,
+          "measurement": "m4",
+          "row_1_based": 10,
+          "time": 13.483333333333333,
+          "sample_cv_percent": 6.197460377894431,
+          "range": 4.157150700111579
+        },
+        {
+          "n": 3,
+          "mean": 37.73127580677502,
+          "sample_sd": 2.3422185734880796,
+          "min": 36.338284802275695,
+          "max": 40.435424140574625,
+          "measurement": "m4",
+          "row_1_based": 11,
+          "time": 14.983333333333333,
+          "sample_cv_percent": 6.207631529563894,
+          "range": 4.0971393382989305
+        }
+      ],
+      "positive_time_increments": [],
+      "final_row_summary": {
+        "n": 3,
+        "mean": 37.73127580677502,
+        "sample_sd": 2.3422185734880796,
+        "min": 36.338284802275695,
+        "max": 40.435424140574625
+      }
+    },
+    {
+      "measurement": {
+        "file": "file5",
+        "id": "m5",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "csv_member": "data/m5.csv",
+      "format_id": "format5",
+      "schema": [
+        {
+          "type": "time",
+          "unit": "u2",
+          "index": "0"
+        },
+        {
+          "replica": "A7",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "1",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "B7",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "2",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "C7",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "3",
+          "isCalculated": "False"
+        }
+      ],
+      "csv_header": false,
+      "delimiter": ",",
+      "blank_rows": 0,
+      "rows": 11,
+      "columns": 4,
+      "observation_count": 33,
+      "replica_labels": [
+        "A7",
+        "B7",
+        "C7"
+      ],
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "75.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "nominal_abts": 75.0,
+      "first_row_time": 0.0,
+      "measured_t0_by_replica": {
+        "A7": 72.02867834575328,
+        "B7": 72.32327957646984,
+        "C7": 72.37783535993587
+      },
+      "t0_summary": {
+        "n": 3,
+        "mean": 72.24326442738634,
+        "sample_sd": 0.18782830777166865,
+        "min": 72.02867834575328,
+        "max": 72.37783535993587
+      },
+      "t0_mean_minus_nominal": -2.756735572613664,
+      "t0_mean_relative_difference_percent": -3.675647430151552,
+      "time_grid": [
+        0.0,
+        1.4666666666666668,
+        2.9166666666666665,
+        4.366666666666666,
+        5.833333333333333,
+        7.483333333333333,
+        8.983333333333333,
+        10.483333333333333,
+        11.983333333333333,
+        13.483333333333333,
+        14.983333333333333
+      ],
+      "time_steps": [
+        1.4666666666666668,
+        1.4499999999999997,
+        1.4499999999999997,
+        1.4666666666666668,
+        1.6500000000000004,
+        1.4999999999999991,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "duplicate_times": 0,
+      "strictly_increasing_time": true,
+      "missing_cells": 0,
+      "nonfinite_cells": 0,
+      "negative_concentrations": 0,
+      "zero_concentrations": 0,
+      "observation_range": {
+        "min": 59.26808059304859,
+        "max": 72.37783535993587
+      },
+      "pointwise_replicate_stats": [
+        {
+          "n": 3,
+          "mean": 72.24326442738634,
+          "sample_sd": 0.18782830777166865,
+          "min": 72.02867834575328,
+          "max": 72.37783535993587,
+          "measurement": "m5",
+          "row_1_based": 1,
+          "time": 0.0,
+          "sample_cv_percent": 0.2599942143540038,
+          "range": 0.3491570141825946
+        },
+        {
+          "n": 3,
+          "mean": 70.16468907733054,
+          "sample_sd": 0.3320889604339467,
+          "min": 69.78643564529939,
+          "max": 70.40837157681214,
+          "measurement": "m5",
+          "row_1_based": 2,
+          "time": 1.4666666666666668,
+          "sample_cv_percent": 0.473299268907102,
+          "range": 0.621935931512752
+        },
+        {
+          "n": 3,
+          "mean": 68.41162990195541,
+          "sample_sd": 0.44183448812216025,
+          "min": 67.92062785076112,
+          "max": 68.77715365117781,
+          "measurement": "m5",
+          "row_1_based": 3,
+          "time": 2.9166666666666665,
+          "sample_cv_percent": 0.6458470420239634,
+          "range": 0.8565258004166907
+        },
+        {
+          "n": 3,
+          "mean": 66.90043469994635,
+          "sample_sd": 0.4785074052644911,
+          "min": 66.36033244363263,
+          "max": 67.27141402751536,
+          "measurement": "m5",
+          "row_1_based": 4,
+          "time": 4.366666666666666,
+          "sample_cv_percent": 0.7152530583853962,
+          "range": 0.9110815838827335
+        },
+        {
+          "n": 3,
+          "mean": 65.60746263180141,
+          "sample_sd": 0.4730650236344442,
+          "min": 65.0782715321809,
+          "max": 65.98935311606363,
+          "measurement": "m5",
+          "row_1_based": 5,
+          "time": 5.833333333333333,
+          "sample_cv_percent": 0.7210536799591742,
+          "range": 0.9110815838827193
+        },
+        {
+          "n": 3,
+          "mean": 64.29812382861665,
+          "sample_sd": 0.42787179642392137,
+          "min": 63.81257735576898,
+          "max": 64.62000295106624,
+          "measurement": "m5",
+          "row_1_based": 6,
+          "time": 7.483333333333333,
+          "sample_cv_percent": 0.6654498933194251,
+          "range": 0.8074255952972607
+        },
+        {
+          "n": 3,
+          "mean": 63.228830472682446,
+          "sample_sd": 0.4227281205644298,
+          "min": 62.74873957818137,
+          "max": 63.545254016785435,
+          "measurement": "m5",
+          "row_1_based": 7,
+          "time": 8.983333333333333,
+          "sample_cv_percent": 0.6685686219470189,
+          "range": 0.7965144386040635
+        },
+        {
+          "n": 3,
+          "mean": 62.27592278814244,
+          "sample_sd": 0.4495255310635073,
+          "min": 61.76673547579282,
+          "max": 62.6178056978629,
+          "measurement": "m5",
+          "row_1_based": 8,
+          "time": 10.483333333333333,
+          "sample_cv_percent": 0.721828775773835,
+          "range": 0.8510702220700779
+        },
+        {
+          "n": 3,
+          "mean": 61.40848583103254,
+          "sample_sd": 0.47023583183263123,
+          "min": 60.8774762052965,
+          "max": 61.77219105413942,
+          "measurement": "m5",
+          "row_1_based": 9,
+          "time": 11.983333333333333,
+          "sample_cv_percent": 0.7657505725291786,
+          "range": 0.8947148488429164
+        },
+        {
+          "n": 3,
+          "mean": 60.55741560896246,
+          "sample_sd": 0.46868255154168487,
+          "min": 60.031861561573024,
+          "max": 60.93203198876254,
+          "measurement": "m5",
+          "row_1_based": 10,
+          "time": 13.483333333333333,
+          "sample_cv_percent": 0.7739474130932367,
+          "range": 0.900170427189515
+        },
+        {
+          "n": 3,
+          "mean": 59.788179062091416,
+          "sample_sd": 0.4598678255414755,
+          "min": 59.26808059304859,
+          "max": 60.14097312850509,
+          "measurement": "m5",
+          "row_1_based": 11,
+          "time": 14.983333333333333,
+          "sample_cv_percent": 0.7691617854156287,
+          "range": 0.8728925354565007
+        }
+      ],
+      "positive_time_increments": [],
+      "final_row_summary": {
+        "n": 3,
+        "mean": 59.788179062091416,
+        "sample_sd": 0.4598678255414755,
+        "min": 59.26808059304859,
+        "max": 60.14097312850509
+      }
+    },
+    {
+      "measurement": {
+        "file": "file6",
+        "id": "m6",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "csv_member": "data/m6.csv",
+      "format_id": "format6",
+      "schema": [
+        {
+          "type": "time",
+          "unit": "u2",
+          "index": "0"
+        },
+        {
+          "replica": "A8",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "1",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "B8",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "2",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "C8",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "3",
+          "isCalculated": "False"
+        }
+      ],
+      "csv_header": false,
+      "delimiter": ",",
+      "blank_rows": 0,
+      "rows": 11,
+      "columns": 4,
+      "observation_count": 33,
+      "replica_labels": [
+        "A8",
+        "B8",
+        "C8"
+      ],
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "100.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "nominal_abts": 100.0,
+      "first_row_time": 0.0,
+      "measured_t0_by_replica": {
+        "A8": 97.75718582833356,
+        "B8": 98.43367754331236,
+        "C8": 97.22799472871306
+      },
+      "t0_summary": {
+        "n": 3,
+        "mean": 97.80628603345299,
+        "sample_sd": 0.6043392134903209,
+        "min": 97.22799472871306,
+        "max": 98.43367754331236
+      },
+      "t0_mean_minus_nominal": -2.1937139665470085,
+      "t0_mean_relative_difference_percent": -2.1937139665470085,
+      "time_grid": [
+        0.0,
+        1.4666666666666668,
+        2.9166666666666665,
+        4.366666666666666,
+        5.833333333333333,
+        7.483333333333333,
+        8.983333333333333,
+        10.483333333333333,
+        11.983333333333333,
+        13.483333333333333,
+        14.983333333333333
+      ],
+      "time_steps": [
+        1.4666666666666668,
+        1.4499999999999997,
+        1.4499999999999997,
+        1.4666666666666668,
+        1.6500000000000004,
+        1.4999999999999991,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "duplicate_times": 0,
+      "strictly_increasing_time": true,
+      "missing_cells": 0,
+      "nonfinite_cells": 0,
+      "negative_concentrations": 0,
+      "zero_concentrations": 0,
+      "observation_range": {
+        "min": 82.69978959170896,
+        "max": 98.43367754331236
+      },
+      "pointwise_replicate_stats": [
+        {
+          "n": 3,
+          "mean": 97.80628603345299,
+          "sample_sd": 0.6043392134903209,
+          "min": 97.22799472871306,
+          "max": 98.43367754331236,
+          "measurement": "m6",
+          "row_1_based": 1,
+          "time": 0.0,
+          "sample_cv_percent": 0.6178940413744132,
+          "range": 1.2056828145992995
+        },
+        {
+          "n": 3,
+          "mean": 95.32581641186411,
+          "sample_sd": 0.7229070194194713,
+          "min": 94.59840596565036,
+          "max": 96.04413422750018,
+          "measurement": "m6",
+          "row_1_based": 2,
+          "time": 1.4666666666666668,
+          "sample_cv_percent": 0.7583538716270563,
+          "range": 1.4457282618498226
+        },
+        {
+          "n": 3,
+          "mean": 93.37453788989572,
+          "sample_sd": 0.7669761899482622,
+          "min": 92.62348660418003,
+          "max": 94.1565041195755,
+          "measurement": "m6",
+          "row_1_based": 3,
+          "time": 2.9166666666666665,
+          "sample_cv_percent": 0.8213975750569776,
+          "range": 1.5330175153954713
+        },
+        {
+          "n": 3,
+          "mean": 91.72877175533712,
+          "sample_sd": 0.8293017448803172,
+          "min": 90.89406826830684,
+          "max": 92.55256408567419,
+          "measurement": "m6",
+          "row_1_based": 4,
+          "time": 4.366666666666666,
+          "sample_cv_percent": 0.9040802891073981,
+          "range": 1.6584958173673527
+        },
+        {
+          "n": 3,
+          "mean": 90.25394707563875,
+          "sample_sd": 0.8383563180813226,
+          "min": 89.39378422299099,
+          "max": 91.06864677539815,
+          "measurement": "m6",
+          "row_1_based": 5,
+          "time": 5.833333333333333,
+          "sample_cv_percent": 0.9288860434865246,
+          "range": 1.6748625524071628
+        },
+        {
+          "n": 3,
+          "mean": 88.78457797428698,
+          "sample_sd": 0.8129788067666932,
+          "min": 87.96442269618097,
+          "max": 89.5901850434687,
+          "measurement": "m6",
+          "row_1_based": 6,
+          "time": 7.483333333333333,
+          "sample_cv_percent": 0.9156757010233705,
+          "range": 1.6257623472877185
+        },
+        {
+          "n": 3,
+          "mean": 87.58980631638089,
+          "sample_sd": 0.8734606399979008,
+          "min": 86.69872851976905,
+          "max": 88.44451359068205,
+          "measurement": "m6",
+          "row_1_based": 7,
+          "time": 8.983333333333333,
+          "sample_cv_percent": 0.9972172296430205,
+          "range": 1.7457850709130014
+        },
+        {
+          "n": 3,
+          "mean": 86.49869064706027,
+          "sample_sd": 0.9070271586331632,
+          "min": 85.5639682236756,
+          "max": 87.37522023474783,
+          "measurement": "m6",
+          "row_1_based": 8,
+          "time": 10.483333333333333,
+          "sample_cv_percent": 1.0486021832793944,
+          "range": 1.8112520110722272
+        },
+        {
+          "n": 3,
+          "mean": 85.53850885805812,
+          "sample_sd": 0.8101916522139805,
+          "min": 84.72380915829872,
+          "max": 86.34411592723984,
+          "measurement": "m6",
+          "row_1_based": 9,
+          "time": 11.983333333333333,
+          "sample_cv_percent": 0.9471659759213311,
+          "range": 1.62030676894112
+        },
+        {
+          "n": 3,
+          "mean": 84.53104539005209,
+          "sample_sd": 0.8623496091976701,
+          "min": 83.65451580236451,
+          "max": 85.3784785598911,
+          "measurement": "m6",
+          "row_1_based": 10,
+          "time": 13.483333333333333,
+          "sample_cv_percent": 1.0201572750207044,
+          "range": 1.7239627575265786
+        },
+        {
+          "n": 3,
+          "mean": 83.61814528005382,
+          "sample_sd": 0.8858275721497162,
+          "min": 82.69978959170896,
+          "max": 84.46739697600837,
+          "measurement": "m6",
+          "row_1_based": 11,
+          "time": 14.983333333333333,
+          "sample_cv_percent": 1.0593724235127473,
+          "range": 1.76760738429941
+        }
+      ],
+      "positive_time_increments": [],
+      "final_row_summary": {
+        "n": 3,
+        "mean": 83.61814528005382,
+        "sample_sd": 0.8858275721497162,
+        "min": 82.69978959170896,
+        "max": 84.46739697600837
+      }
+    },
+    {
+      "measurement": {
+        "file": "file7",
+        "id": "m7",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "csv_member": "data/m7.csv",
+      "format_id": "format7",
+      "schema": [
+        {
+          "type": "time",
+          "unit": "u2",
+          "index": "0"
+        },
+        {
+          "replica": "A9",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "1",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "B9",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "2",
+          "isCalculated": "False"
+        },
+        {
+          "replica": "C9",
+          "species": "s1",
+          "type": "conc",
+          "unit": "u4",
+          "index": "3",
+          "isCalculated": "False"
+        }
+      ],
+      "csv_header": false,
+      "delimiter": ",",
+      "blank_rows": 0,
+      "rows": 11,
+      "columns": 4,
+      "observation_count": 33,
+      "replica_labels": [
+        "A9",
+        "B9",
+        "C9"
+      ],
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "150.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "nominal_abts": 150.0,
+      "first_row_time": 0.0,
+      "measured_t0_by_replica": {
+        "A9": 146.63916781389747,
+        "B9": 144.74062654927957,
+        "C9": 146.27909964302165
+      },
+      "t0_summary": {
+        "n": 3,
+        "mean": 145.88629800206624,
+        "sample_sd": 1.0083821598070801,
+        "min": 144.74062654927957,
+        "max": 146.63916781389747
+      },
+      "t0_mean_minus_nominal": -4.1137019979337595,
+      "t0_mean_relative_difference_percent": -2.7424679986225065,
+      "time_grid": [
+        0.0,
+        1.4666666666666668,
+        2.9166666666666665,
+        4.366666666666666,
+        5.833333333333333,
+        7.483333333333333,
+        8.983333333333333,
+        10.483333333333333,
+        11.983333333333333,
+        13.483333333333333,
+        14.983333333333333
+      ],
+      "time_steps": [
+        1.4666666666666668,
+        1.4499999999999997,
+        1.4499999999999997,
+        1.4666666666666668,
+        1.6500000000000004,
+        1.4999999999999991,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "duplicate_times": 0,
+      "strictly_increasing_time": true,
+      "missing_cells": 0,
+      "nonfinite_cells": 0,
+      "negative_concentrations": 0,
+      "zero_concentrations": 0,
+      "observation_range": {
+        "min": 129.57957432406954,
+        "max": 146.63916781389747
+      },
+      "pointwise_replicate_stats": [
+        {
+          "n": 3,
+          "mean": 145.88629800206624,
+          "sample_sd": 1.0083821598070801,
+          "min": 144.74062654927957,
+          "max": 146.63916781389747,
+          "measurement": "m7",
+          "row_1_based": 1,
+          "time": 0.0,
+          "sample_cv_percent": 0.6912110140685028,
+          "range": 1.8985412646179043
+        },
+        {
+          "n": 3,
+          "mean": 143.99503084191048,
+          "sample_sd": 0.7592145076191634,
+          "min": 143.19669787719087,
+          "max": 144.70789307919998,
+          "measurement": "m7",
+          "row_1_based": 2,
+          "time": 1.4666666666666668,
+          "sample_cv_percent": 0.5272504913400041,
+          "range": 1.5111952020091053
+        },
+        {
+          "n": 3,
+          "mean": 141.84371444723334,
+          "sample_sd": 0.7985856128808907,
+          "min": 141.12903368382834,
+          "max": 142.7056958259966,
+          "measurement": "m7",
+          "row_1_based": 3,
+          "time": 2.9166666666666665,
+          "sample_cv_percent": 0.563003877889823,
+          "range": 1.57666214216826
+        },
+        {
+          "n": 3,
+          "mean": 139.5578271200066,
+          "sample_sd": 0.6202827039221842,
+          "min": 138.89224656172104,
+          "max": 140.11975168970673,
+          "measurement": "m7",
+          "row_1_based": 4,
+          "time": 4.366666666666666,
+          "sample_cv_percent": 0.44446285580872463,
+          "range": 1.227505127985694
+        },
+        {
+          "n": 3,
+          "mean": 138.01389844791794,
+          "sample_sd": 0.6607333798038565,
+          "min": 137.29376210616633,
+          "max": 138.59218975265787,
+          "measurement": "m7",
+          "row_1_based": 5,
+          "time": 5.833333333333333,
+          "sample_cv_percent": 0.4787440882652817,
+          "range": 1.2984276464915467
+        },
+        {
+          "n": 3,
+          "mean": 136.41723251847876,
+          "sample_sd": 0.5412399330479766,
+          "min": 135.8425782659699,
+          "max": 136.9173272002507,
+          "measurement": "m7",
+          "row_1_based": 6,
+          "time": 7.483333333333333,
+          "sample_cv_percent": 0.39675334490799136,
+          "range": 1.074748934280791
+        },
+        {
+          "n": 3,
+          "mean": 135.04788235348136,
+          "sample_sd": 0.677729819553487,
+          "min": 134.34774979900064,
+          "max": 135.7007332289582,
+          "measurement": "m7",
+          "row_1_based": 7,
+          "time": 8.983333333333333,
+          "sample_cv_percent": 0.5018440924379411,
+          "range": 1.3529834299575612
+        },
+        {
+          "n": 3,
+          "mean": 133.71308418467916,
+          "sample_sd": 0.632243237567596,
+          "min": 133.0002219473897,
+          "max": 134.20590476198896,
+          "measurement": "m7",
+          "row_1_based": 8,
+          "time": 10.483333333333333,
+          "sample_cv_percent": 0.472835729893394,
+          "range": 1.205682814599271
+        },
+        {
+          "n": 3,
+          "mean": 132.56923125800802,
+          "sample_sd": 0.5358977704194847,
+          "min": 131.95275090484188,
+          "max": 132.92384385053722,
+          "measurement": "m7",
+          "row_1_based": 9,
+          "time": 11.983333333333333,
+          "sample_cv_percent": 0.4042399320974512,
+          "range": 0.9710929456953465
+        },
+        {
+          "n": 3,
+          "mean": 131.33445202556018,
+          "sample_sd": 0.5567452674254668,
+          "min": 130.70342346346976,
+          "max": 131.75635008436416,
+          "measurement": "m7",
+          "row_1_based": 10,
+          "time": 13.483333333333333,
+          "sample_cv_percent": 0.42391410542993974,
+          "range": 1.0529266208943966
+        },
+        {
+          "n": 3,
+          "mean": 130.27243277408812,
+          "sample_sd": 0.6000392192643594,
+          "min": 129.57957432406954,
+          "max": 130.6215897882707,
+          "measurement": "m7",
+          "row_1_based": 11,
+          "time": 14.983333333333333,
+          "sample_cv_percent": 0.4606033728601025,
+          "range": 1.042015464201171
+        }
+      ],
+      "positive_time_increments": [],
+      "final_row_summary": {
+        "n": 3,
+        "mean": 130.27243277408812,
+        "sample_sd": 0.6000392192643594,
+        "min": 129.57957432406954,
+        "max": 130.6215897882707
+      }
+    }
+  ],
+  "unit_definitions": [
+    {
+      "id": "u0",
+      "name": "ul",
+      "components": [
+        {
+          "kind": "litre",
+          "exponent": "1",
+          "scale": "-6",
+          "multiplier": "1"
+        }
+      ],
+      "literal_factor_in_reference_base": 1e-06,
+      "reference_base": "litre",
+      "declared_intended_unit": "microlitre",
+      "expected_factor_from_name": 1e-06,
+      "literal_to_named_factor_ratio": 1.0,
+      "consistent_with_name": true
+    },
+    {
+      "id": "u1",
+      "name": "mM",
+      "components": [
+        {
+          "kind": "litre",
+          "exponent": "-1",
+          "scale": "1",
+          "multiplier": "1"
+        },
+        {
+          "kind": "mole",
+          "exponent": "1",
+          "scale": "-3",
+          "multiplier": "1"
+        }
+      ],
+      "literal_factor_in_reference_base": 0.0001,
+      "reference_base": "mole/litre",
+      "declared_intended_unit": "millimole/litre",
+      "expected_factor_from_name": 0.001,
+      "literal_to_named_factor_ratio": 0.1,
+      "consistent_with_name": false
+    },
+    {
+      "id": "u2",
+      "name": "min",
+      "components": [
+        {
+          "kind": "second",
+          "exponent": "1",
+          "scale": "1",
+          "multiplier": "60"
+        }
+      ],
+      "literal_factor_in_reference_base": 600.0,
+      "reference_base": "second",
+      "declared_intended_unit": "minute",
+      "expected_factor_from_name": 60,
+      "literal_to_named_factor_ratio": 10.0,
+      "consistent_with_name": false
+    },
+    {
+      "id": "u3",
+      "name": "K",
+      "components": [
+        {
+          "kind": "kelvin",
+          "exponent": "1",
+          "scale": "1",
+          "multiplier": "1"
+        }
+      ],
+      "literal_factor_in_reference_base": 10.0,
+      "reference_base": "kelvin",
+      "declared_intended_unit": "kelvin",
+      "expected_factor_from_name": 1,
+      "literal_to_named_factor_ratio": 10.0,
+      "consistent_with_name": false
+    },
+    {
+      "id": "u4",
+      "name": "umole / l",
+      "components": [
+        {
+          "kind": "litre",
+          "exponent": "-1",
+          "scale": "1",
+          "multiplier": "1"
+        },
+        {
+          "kind": "mole",
+          "exponent": "1",
+          "scale": "-6",
+          "multiplier": "1"
+        }
+      ],
+      "literal_factor_in_reference_base": 1e-07,
+      "reference_base": "mole/litre",
+      "declared_intended_unit": "micromole/litre",
+      "expected_factor_from_name": 1e-06,
+      "literal_to_named_factor_ratio": 0.1,
+      "consistent_with_name": false
+    },
+    {
+      "id": "u5",
+      "name": "1 / min",
+      "components": [
+        {
+          "kind": "second",
+          "exponent": "-1",
+          "scale": "1",
+          "multiplier": "60"
+        }
+      ],
+      "literal_factor_in_reference_base": 0.0016666666666666668,
+      "reference_base": "1/second",
+      "declared_intended_unit": "1/minute",
+      "expected_factor_from_name": 0.016666666666666666,
+      "literal_to_named_factor_ratio": 0.1,
+      "consistent_with_name": false
+    }
+  ],
+  "members": [
+    {
+      "name": "experiment.xml",
+      "uncompressed_bytes": 19442,
+      "compressed_bytes": 2689,
+      "sha256": "083e199710c5390d28a25dd78e497269b353e6117b6cba6a8034b98ad8a57bd1"
+    },
+    {
+      "name": "history.log",
+      "uncompressed_bytes": 31798,
+      "compressed_bytes": 2561,
+      "sha256": "011972162822bf2c9bcbacbdb0c9043abc84fb43e29b6a53e347d27d6ab86182"
+    },
+    {
+      "name": "data/m0.csv",
+      "uncompressed_bytes": 798,
+      "compressed_bytes": 346,
+      "sha256": "8f5f28630a1e346c398daef9f4522a5826944802679650e31cef659afba4b2c9"
+    },
+    {
+      "name": "data/m1.csv",
+      "uncompressed_bytes": 784,
+      "compressed_bytes": 342,
+      "sha256": "359aaec8a494ce28357537c7afeb8c7fcf7d0ce31e15a13aeed6b3081596f634"
+    },
+    {
+      "name": "data/m2.csv",
+      "uncompressed_bytes": 795,
+      "compressed_bytes": 349,
+      "sha256": "d2dbc2749f96b1eb25f82789ee15cfd751418ca003bd1e360a914fe0a0a68f07"
+    },
+    {
+      "name": "data/m3.csv",
+      "uncompressed_bytes": 805,
+      "compressed_bytes": 355,
+      "sha256": "26594ecfca246e03724ad27e46301b58570d7a5add778aa9f1141306a5bfabbc"
+    },
+    {
+      "name": "data/m4.csv",
+      "uncompressed_bytes": 794,
+      "compressed_bytes": 355,
+      "sha256": "174c591e324368e29a92455845723a166a860746cce9e9e5147b34513d080a38"
+    },
+    {
+      "name": "data/m5.csv",
+      "uncompressed_bytes": 782,
+      "compressed_bytes": 348,
+      "sha256": "c7df350c6a9b3eddb333674efed9283cfec3f53b341c6a6a23b9e93d46bd24f2"
+    },
+    {
+      "name": "data/m6.csv",
+      "uncompressed_bytes": 780,
+      "compressed_bytes": 351,
+      "sha256": "48403d90c169d3ea89c51471356fa7a1c89a77a9670b64e4d58f3868174bdb00"
+    },
+    {
+      "name": "data/m7.csv",
+      "uncompressed_bytes": 809,
+      "compressed_bytes": 360,
+      "sha256": "5abbaee84e3eb8a64154451c95fb9a0754c72fc917866a245d46f6aef67afca8"
+    },
+    {
+      "name": "metadata.rdf",
+      "uncompressed_bytes": 467,
+      "compressed_bytes": 271,
+      "sha256": "e8c4d2afcee6a192394e5145c7b2166ad5ec366fef81965ff8e4c11101cbd17f"
+    },
+    {
+      "name": "metadata_1.rdf",
+      "uncompressed_bytes": 466,
+      "compressed_bytes": 265,
+      "sha256": "80d839ba5d6e85cdb0b1e9e079e4fd7adcfefe330e9f2e10bd579be0257fde90"
+    },
+    {
+      "name": "metadata_2.rdf",
+      "uncompressed_bytes": 466,
+      "compressed_bytes": 265,
+      "sha256": "1e62b2c66f0fb875d2ff9455ab15872453cb0e2196949255926a6dc96a263ac4"
+    },
+    {
+      "name": "metadata_3.rdf",
+      "uncompressed_bytes": 466,
+      "compressed_bytes": 265,
+      "sha256": "8c304aad17c8d01af97dde5b3115a174899e3312c3e0770736fc58a005014d39"
+    },
+    {
+      "name": "metadata_4.rdf",
+      "uncompressed_bytes": 466,
+      "compressed_bytes": 266,
+      "sha256": "aebf845f853059584c6564f2a4f9410d125208cef4b1805b3ee74f6a7656e816"
+    },
+    {
+      "name": "metadata_5.rdf",
+      "uncompressed_bytes": 466,
+      "compressed_bytes": 266,
+      "sha256": "ff4d8838a29d6ff23ebd041cd88f931e4bb77f96178f9d8be8ae238e330f17f2"
+    },
+    {
+      "name": "metadata_6.rdf",
+      "uncompressed_bytes": 466,
+      "compressed_bytes": 266,
+      "sha256": "bba428937c6172efa94e2c88ff2f29526e53ce58fff14317eada5f10bd4b4842"
+    },
+    {
+      "name": "metadata_7.rdf",
+      "uncompressed_bytes": 466,
+      "compressed_bytes": 266,
+      "sha256": "21eea8918731afdace921cf8ecf3bcd1ac9faded7863056a95aeae1db67a8367"
+    },
+    {
+      "name": "metadata_8.rdf",
+      "uncompressed_bytes": 466,
+      "compressed_bytes": 266,
+      "sha256": "e7f36eaa5f4d8786c5ee7e56b043fbb4a7fd24de56d391c9b4b4655bdcb62d75"
+    },
+    {
+      "name": "metadata_9.rdf",
+      "uncompressed_bytes": 467,
+      "compressed_bytes": 271,
+      "sha256": "e8c4d2afcee6a192394e5145c7b2166ad5ec366fef81965ff8e4c11101cbd17f"
+    },
+    {
+      "name": "metadata_10.rdf",
+      "uncompressed_bytes": 482,
+      "compressed_bytes": 282,
+      "sha256": "fe52c8fe37408beac4ff24a59aca63c2bf663355f96865a30ecce0883b43fed2"
+    },
+    {
+      "name": "manifest.xml",
+      "uncompressed_bytes": 2525,
+      "compressed_bytes": 290,
+      "sha256": "6a4993cc951675a94aaaf9bfb1a1d2c71dc1317096dee57a1acce0b37f83b017"
+    }
+  ],
+  "manifest": [
+    {
+      "location": "./experiment.xml",
+      "format": "http://identifiers.org/combine.specifications/sbml",
+      "master": "true"
+    },
+    {
+      "location": "./history.log",
+      "format": "http://purl.org/NET/mediatypes/text/plain",
+      "master": "false"
+    },
+    {
+      "location": "./data/m0.csv",
+      "format": "http://purl.org/NET/mediatypes/text/csv",
+      "master": "false"
+    },
+    {
+      "location": "./data/m1.csv",
+      "format": "http://purl.org/NET/mediatypes/text/csv",
+      "master": "false"
+    },
+    {
+      "location": "./data/m2.csv",
+      "format": "http://purl.org/NET/mediatypes/text/csv",
+      "master": "false"
+    },
+    {
+      "location": "./data/m3.csv",
+      "format": "http://purl.org/NET/mediatypes/text/csv",
+      "master": "false"
+    },
+    {
+      "location": "./data/m4.csv",
+      "format": "http://purl.org/NET/mediatypes/text/csv",
+      "master": "false"
+    },
+    {
+      "location": "./data/m5.csv",
+      "format": "http://purl.org/NET/mediatypes/text/csv",
+      "master": "false"
+    },
+    {
+      "location": "./data/m6.csv",
+      "format": "http://purl.org/NET/mediatypes/text/csv",
+      "master": "false"
+    },
+    {
+      "location": "./data/m7.csv",
+      "format": "http://purl.org/NET/mediatypes/text/csv",
+      "master": "false"
+    },
+    {
+      "location": "metadata.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_1.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_2.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_3.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_4.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_5.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_6.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_7.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_8.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_9.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    },
+    {
+      "location": "metadata_10.rdf",
+      "format": "http://identifiers.org/combine.specifications/omex-metadata",
+      "master": "false"
+    }
+  ],
+  "model": {
+    "level": "3",
+    "version": "2",
+    "name": "SLAC kinetic assay"
+  },
+  "unit_policy": "All tabulated concentration/time numbers are preserved source values labelled by the EnzymeML unit names. Literal SBML scales disagree for u1-u5. No unit repair or SI reinterpretation was silently applied. Resolve this discrepancy before physical-unit or generic SBML-based claims.",
+  "species": [
+    {
+      "metaid": "METAID_P0",
+      "sboTerm": "SBO:0000252",
+      "id": "p0",
+      "name": "Small laccase (SLAC)",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_P1",
+      "sboTerm": "SBO:0000252",
+      "id": "p1",
+      "name": "Small laccase (SLAC) (inactive)",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_S0",
+      "sboTerm": "SBO:0000247",
+      "id": "s0",
+      "name": "sodium acetate",
+      "compartment": "v0",
+      "initialConcentration": "50",
+      "substanceUnits": "u1",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "true"
+    },
+    {
+      "metaid": "METAID_S1",
+      "sboTerm": "SBO:0000247",
+      "id": "s1",
+      "name": "ABTS",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_S2",
+      "sboTerm": "SBO:0000247",
+      "id": "s2",
+      "name": "oxidised ABTS radical",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_S3",
+      "sboTerm": "SBO:0000247",
+      "id": "s3",
+      "name": "Oxygen",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_S4",
+      "sboTerm": "SBO:0000247",
+      "id": "s4",
+      "name": "Water",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    }
+  ],
+  "compartments": [
+    {
+      "id": "v0",
+      "name": "MTP 96 well",
+      "spatialDimensions": "3",
+      "size": "200",
+      "units": "u0",
+      "constant": "true"
+    }
+  ],
+  "parameters": [
+    {
+      "sboTerm": "SBO:0000025",
+      "id": "k_cat",
+      "value": 23.8113065508133,
+      "units": "u5",
+      "initialValue": 29.128355736210448,
+      "upperBound": 291.2835573621045,
+      "lowerBound": 2.9128355736210447,
+      "stdev": 2.0801729247130765
+    },
+    {
+      "sboTerm": "SBO:0000027",
+      "id": "K_M",
+      "value": 22.9403691771082,
+      "units": "u4",
+      "initialValue": 75.0,
+      "upperBound": 375.0,
+      "lowerBound": 0.75,
+      "stdev": 2.4149800297892927
+    },
+    {
+      "id": "k_ie",
+      "value": 0.0608219180888591,
+      "units": "u5",
+      "initialValue": 0.011552453009332421,
+      "upperBound": 0.5776226504666211,
+      "lowerBound": 0.0002310490601866484,
+      "stdev": 0.0008967639596557227
+    }
+  ],
+  "counts": {
+    "archive_members": 22,
+    "csv_files": 8,
+    "condition_files": 8,
+    "replicate_trajectories": 24,
+    "unique_replicate_labels": 24,
+    "rows_per_file": 11,
+    "columns_per_file": 4,
+    "total_rows": 88,
+    "time_values_stored": 88,
+    "unique_timepoints": 11,
+    "observations": 264,
+    "all_numeric_cells_including_time": 352,
+    "missing_cells": 0,
+    "nonfinite_cells": 0,
+    "negative_concentration_values": 0,
+    "zero_concentration_values": 0,
+    "within_replicate_time_increments": 240,
+    "positive_time_increments": 1,
+    "duplicated_whole_replicate_trajectories": 0
+  },
+  "time": {
+    "all_files_identical_grid": true,
+    "source_unit_name": "min",
+    "grid": [
+      0.0,
+      1.4666666666666668,
+      2.9166666666666665,
+      4.366666666666666,
+      5.833333333333333,
+      7.483333333333333,
+      8.983333333333333,
+      10.483333333333333,
+      11.983333333333333,
+      13.483333333333333,
+      14.983333333333333
+    ],
+    "start": 0.0,
+    "end": 14.983333333333333,
+    "regular_grid": false,
+    "min_step": 1.4499999999999997,
+    "max_step": 1.6500000000000004,
+    "median_step": 1.4999999999999996
+  },
+  "observed_species": [
+    {
+      "id": "s1",
+      "name": "ABTS",
+      "type": "conc",
+      "unit_id": "u4",
+      "unit_name": "umole / l",
+      "xml_isCalculated": "False",
+      "note": "The archive provides concentration time courses, not raw absorbance or an independently observed product trajectory. The isCalculated flag is metadata, not proof that calibration/transformation did not occur."
+    }
+  ],
+  "observation_range": {
+    "min": 2.0390637371819036,
+    "max": 146.63916781389747
+  },
+  "positive_time_increments": [
+    {
+      "measurement": "m1",
+      "replica": "B3",
+      "from_row": 8,
+      "to_row": 9,
+      "from_time": 10.483333333333333,
+      "to_time": 11.983333333333333,
+      "from_value": 5.3451442152233914,
+      "to_value": 5.399699998689423,
+      "increase": 0.054555783466031293
+    }
+  ],
+  "descriptive_flags": [
+    {
+      "id": "persistent_C6_offset",
+      "measurement": "m4",
+      "replica": "C6",
+      "rows": 11,
+      "direction": "C6 exceeds both A6 and B6 at every timepoint",
+      "C6_minus_mean_A6_B6_min": 3.9825721930202747,
+      "C6_minus_mean_A6_B6_max": 5.496495184202637,
+      "C6_minus_mean_A6_B6_t0": 5.496495184202637,
+      "C6_minus_mean_A6_B6_final": 4.0562225006994055,
+      "max_absolute_A6_minus_B6": 0.20185639882431872,
+      "interpretation": "Descriptive candidate for source/calibration review only. Not a proven erroneous observation or justified exclusion; no formal outlier test or deletion."
+    }
+  ],
+  "uncertainty_limitations": [
+    "Three labelled well trajectories per condition provide only three cross-replicate observations at each time. Whether these represent independent biological preparations is not established by this archive; do not call them biological replicates.",
+    "Timepoints within each replicate trajectory should not be treated as independent replicates. A shared calibration or plate effects can also correlate replicate wells.",
+    "CSV concentration columns have no pointwise error, SD, SEM, covariance, detection-limit, or censoring fields. Descriptive sample SD uses n-1=2 degrees of freedom; it is not a deterministic error bound.",
+    "The archive contains neither raw absorbance, calibration observations/coefficients, nor a fully specified observation transformation. These exist elsewhere according to the provided provenance report and were not independently inspected here.",
+    "Parameter stdev fields are parameter-estimation metadata, not observation noise. The archive alone does not establish their estimator, sampling distribution, covariance, or confidence level. Optimisation lower/upper bounds are not confidence intervals.",
+    "Measured t=0 ABTS concentrations differ from nominal initial concentrations. All eight t0 means are below nominal, and 23 of 24 individual t0 values are below nominal; preserve both instead of substituting one for the other.",
+    "No formal outlier finding is justified by the descriptive screen. Persistent C6 offset and one small non-monotone increment are retained unchanged.",
+    "Unit-name versus literal-SBML discrepancies must be resolved explicitly before reporting physically interpreted numerical bounds. No concentration/time rescaling was done in this audit.",
+    "Only s1 is observed. No measured active/inactive-enzyme trajectory, conformation state, oxygen, water, or independent oxidised-product trajectory is provided. Model or biological validation does not follow from these descriptive checks."
+  ],
+  "original_unchanged_after_audit": true
+}

@@ -1,0 +1,1118 @@
+{
+  "archive_sha256": "6404d43ced75108a126f1f071057b8600e4aeecefb720c53dc29607bc774afa3",
+  "archive_file": "slac25.omex (external original input)",
+  "model_attributes": {
+    "name": "SLAC kinetic assay"
+  },
+  "units": [
+    {
+      "attributes": {
+        "metaid": "METAID_U0",
+        "id": "u0",
+        "name": "ul"
+      },
+      "parts": [
+        {
+          "kind": "litre",
+          "exponent": "1",
+          "scale": "-6",
+          "multiplier": "1"
+        }
+      ],
+      "factor_to_product_of_base_kinds": 1e-06
+    },
+    {
+      "attributes": {
+        "metaid": "METAID_U1",
+        "id": "u1",
+        "name": "mM"
+      },
+      "parts": [
+        {
+          "kind": "litre",
+          "exponent": "-1",
+          "scale": "1",
+          "multiplier": "1"
+        },
+        {
+          "kind": "mole",
+          "exponent": "1",
+          "scale": "-3",
+          "multiplier": "1"
+        }
+      ],
+      "factor_to_product_of_base_kinds": 0.0001
+    },
+    {
+      "attributes": {
+        "metaid": "METAID_U2",
+        "id": "u2",
+        "name": "min"
+      },
+      "parts": [
+        {
+          "kind": "second",
+          "exponent": "1",
+          "scale": "1",
+          "multiplier": "60"
+        }
+      ],
+      "factor_to_product_of_base_kinds": 600.0
+    },
+    {
+      "attributes": {
+        "metaid": "METAID_U3",
+        "id": "u3",
+        "name": "K"
+      },
+      "parts": [
+        {
+          "kind": "kelvin",
+          "exponent": "1",
+          "scale": "1",
+          "multiplier": "1"
+        }
+      ],
+      "factor_to_product_of_base_kinds": 10.0
+    },
+    {
+      "attributes": {
+        "metaid": "METAID_U4",
+        "id": "u4",
+        "name": "umole / l"
+      },
+      "parts": [
+        {
+          "kind": "litre",
+          "exponent": "-1",
+          "scale": "1",
+          "multiplier": "1"
+        },
+        {
+          "kind": "mole",
+          "exponent": "1",
+          "scale": "-6",
+          "multiplier": "1"
+        }
+      ],
+      "factor_to_product_of_base_kinds": 1e-07
+    },
+    {
+      "attributes": {
+        "metaid": "METAID_U5",
+        "id": "u5",
+        "name": "1 / min"
+      },
+      "parts": [
+        {
+          "kind": "second",
+          "exponent": "-1",
+          "scale": "1",
+          "multiplier": "60"
+        }
+      ],
+      "factor_to_product_of_base_kinds": 0.0016666666666666668
+    }
+  ],
+  "species": [
+    {
+      "metaid": "METAID_P0",
+      "sboTerm": "SBO:0000252",
+      "id": "p0",
+      "name": "Small laccase (SLAC)",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_P1",
+      "sboTerm": "SBO:0000252",
+      "id": "p1",
+      "name": "Small laccase (SLAC) (inactive)",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_S0",
+      "sboTerm": "SBO:0000247",
+      "id": "s0",
+      "name": "sodium acetate",
+      "compartment": "v0",
+      "initialConcentration": "50",
+      "substanceUnits": "u1",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "true"
+    },
+    {
+      "metaid": "METAID_S1",
+      "sboTerm": "SBO:0000247",
+      "id": "s1",
+      "name": "ABTS",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_S2",
+      "sboTerm": "SBO:0000247",
+      "id": "s2",
+      "name": "oxidised ABTS radical",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_S3",
+      "sboTerm": "SBO:0000247",
+      "id": "s3",
+      "name": "Oxygen",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    },
+    {
+      "metaid": "METAID_S4",
+      "sboTerm": "SBO:0000247",
+      "id": "s4",
+      "name": "Water",
+      "compartment": "v0",
+      "hasOnlySubstanceUnits": "false",
+      "boundaryCondition": "false",
+      "constant": "false"
+    }
+  ],
+  "compartments": [
+    {
+      "id": "v0",
+      "name": "MTP 96 well",
+      "spatialDimensions": "3",
+      "size": "200",
+      "units": "u0",
+      "constant": "true"
+    }
+  ],
+  "reactions": [
+    {
+      "attributes": {
+        "metaid": "METAID_R0",
+        "sboTerm": "SBO:0000176",
+        "id": "r0",
+        "name": "Oxidation",
+        "reversible": "false"
+      },
+      "reactants": [
+        {
+          "sboTerm": "SBO:0000015",
+          "species": "s1",
+          "stoichiometry": "1",
+          "constant": "false"
+        }
+      ],
+      "products": [
+        {
+          "sboTerm": "SBO:0000011",
+          "species": "s2",
+          "stoichiometry": "1",
+          "constant": "false"
+        }
+      ],
+      "modifiers": [
+        {
+          "sboTerm": "SBO:0000252",
+          "species": "p0"
+        }
+      ],
+      "local_parameters": [
+        {
+          "attributes": {
+            "sboTerm": "SBO:0000025",
+            "id": "k_cat",
+            "value": "23.8113065508133",
+            "units": "u5"
+          },
+          "annotations": {
+            "initialValue": "29.128355736210448",
+            "upperBound": "291.2835573621045",
+            "lowerBound": "2.9128355736210447",
+            "stdev": "2.0801729247130765"
+          }
+        },
+        {
+          "attributes": {
+            "sboTerm": "SBO:0000027",
+            "id": "K_M",
+            "value": "22.9403691771082",
+            "units": "u4"
+          },
+          "annotations": {
+            "initialValue": "75.0",
+            "upperBound": "375.0",
+            "lowerBound": "0.75",
+            "stdev": "2.4149800297892927"
+          }
+        }
+      ],
+      "kinetic_law_attributes": {
+        "name": "michaelis menten"
+      },
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n            <ns0:apply>\n              <ns0:divide />\n              <ns0:apply>\n                <ns0:minus />\n                <ns0:apply>\n                  <ns0:times />\n                  <ns0:ci> s1 </ns0:ci>\n                  <ns0:ci> p0 </ns0:ci>\n                  <ns0:ci> k_cat </ns0:ci>\n                </ns0:apply>\n              </ns0:apply>\n              <ns0:apply>\n                <ns0:plus />\n                <ns0:ci> K_M </ns0:ci>\n                <ns0:ci> s1 </ns0:ci>\n              </ns0:apply>\n            </ns0:apply>\n          </ns0:math>\n          "
+    },
+    {
+      "attributes": {
+        "metaid": "METAID_R1",
+        "sboTerm": "SBO:0000176",
+        "id": "r1",
+        "name": "enzyme inactivation",
+        "reversible": "false"
+      },
+      "reactants": [
+        {
+          "sboTerm": "SBO:0000252",
+          "species": "p0",
+          "stoichiometry": "1",
+          "constant": "false"
+        }
+      ],
+      "products": [
+        {
+          "sboTerm": "SBO:0000252",
+          "species": "p1",
+          "stoichiometry": "1",
+          "constant": "false"
+        }
+      ],
+      "modifiers": [
+        {
+          "sboTerm": "SBO:0000252",
+          "species": "p0"
+        }
+      ],
+      "local_parameters": [
+        {
+          "attributes": {
+            "id": "k_ie",
+            "value": "0.0608219180888591",
+            "units": "u5"
+          },
+          "annotations": {
+            "initialValue": "0.011552453009332421",
+            "upperBound": "0.5776226504666211",
+            "lowerBound": "0.0002310490601866484",
+            "stdev": "0.0008967639596557227"
+          }
+        }
+      ],
+      "kinetic_law_attributes": {
+        "name": "enzyme inactivation"
+      },
+      "mathml": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\">\n            <ns0:apply>\n              <ns0:times />\n              <ns0:apply>\n                <ns0:minus />\n                <ns0:ci> k_ie </ns0:ci>\n              </ns0:apply>\n              <ns0:ci> p0 </ns0:ci>\n            </ns0:apply>\n          </ns0:math>\n          "
+    }
+  ],
+  "measurements": [
+    {
+      "attributes": {
+        "file": "file0",
+        "id": "m0",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "5.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "time_decimal_strings": [
+        "0.0",
+        "1.4666666666666668",
+        "2.9166666666666665",
+        "4.366666666666666",
+        "5.833333333333333",
+        "7.483333333333333",
+        "8.983333333333333",
+        "10.483333333333333",
+        "11.983333333333333",
+        "13.483333333333333",
+        "14.983333333333333"
+      ],
+      "initial_measured_replicates": [
+        4.046716568731849,
+        3.7848488080948997,
+        3.9703384718794066
+      ],
+      "initial_measured_mean": 3.9339679495687183,
+      "rows": 11,
+      "observations": 33,
+      "initial_sample_standard_deviation": 0.13466919538304545
+    },
+    {
+      "attributes": {
+        "file": "file1",
+        "id": "m1",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "10.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "time_decimal_strings": [
+        "0.0",
+        "1.4666666666666668",
+        "2.9166666666666665",
+        "4.366666666666666",
+        "5.833333333333333",
+        "7.483333333333333",
+        "8.983333333333333",
+        "10.483333333333333",
+        "11.983333333333333",
+        "13.483333333333333",
+        "14.983333333333333"
+      ],
+      "initial_measured_replicates": [
+        8.307523257428882,
+        8.220234003883233,
+        8.400268089321136
+      ],
+      "initial_measured_mean": 8.309341783544417,
+      "rows": 11,
+      "observations": 33,
+      "initial_sample_standard_deviation": 0.09003081837787659
+    },
+    {
+      "attributes": {
+        "file": "file2",
+        "id": "m2",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "15.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "time_decimal_strings": [
+        "0.0",
+        "1.4666666666666668",
+        "2.9166666666666665",
+        "4.366666666666666",
+        "5.833333333333333",
+        "7.483333333333333",
+        "8.983333333333333",
+        "10.483333333333333",
+        "11.983333333333333",
+        "13.483333333333333",
+        "14.983333333333333"
+      ],
+      "initial_measured_replicates": [
+        13.430311324889207,
+        12.933853695348322,
+        12.977498322121148
+      ],
+      "initial_measured_mean": 13.113887780786225,
+      "rows": 11,
+      "observations": 33,
+      "initial_sample_standard_deviation": 0.2748983590503101
+    },
+    {
+      "attributes": {
+        "file": "file3",
+        "id": "m3",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "25.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "time_decimal_strings": [
+        "0.0",
+        "1.4666666666666668",
+        "2.9166666666666665",
+        "4.366666666666666",
+        "5.833333333333333",
+        "7.483333333333333",
+        "8.983333333333333",
+        "10.483333333333333",
+        "11.983333333333333",
+        "13.483333333333333",
+        "14.983333333333333"
+      ],
+      "initial_measured_replicates": [
+        22.3501819215853,
+        22.273803824732855,
+        22.142869944414382
+      ],
+      "initial_measured_mean": 22.255618563577514,
+      "rows": 11,
+      "observations": 33,
+      "initial_sample_standard_deviation": 0.10484556148018262
+    },
+    {
+      "attributes": {
+        "file": "file4",
+        "id": "m4",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "50.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "time_decimal_strings": [
+        "0.0",
+        "1.4666666666666668",
+        "2.9166666666666665",
+        "4.366666666666666",
+        "5.833333333333333",
+        "7.483333333333333",
+        "8.983333333333333",
+        "10.483333333333333",
+        "11.983333333333333",
+        "13.483333333333333",
+        "14.983333333333333"
+      ],
+      "initial_measured_replicates": [
+        46.698428082475004,
+        46.496571683650686,
+        52.09399506726548
+      ],
+      "initial_measured_mean": 48.429664944463724,
+      "rows": 11,
+      "observations": 33,
+      "initial_sample_standard_deviation": 3.175007549296669
+    },
+    {
+      "attributes": {
+        "file": "file5",
+        "id": "m5",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "75.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "time_decimal_strings": [
+        "0.0",
+        "1.4666666666666668",
+        "2.9166666666666665",
+        "4.366666666666666",
+        "5.833333333333333",
+        "7.483333333333333",
+        "8.983333333333333",
+        "10.483333333333333",
+        "11.983333333333333",
+        "13.483333333333333",
+        "14.983333333333333"
+      ],
+      "initial_measured_replicates": [
+        72.02867834575328,
+        72.32327957646984,
+        72.37783535993587
+      ],
+      "initial_measured_mean": 72.24326442738634,
+      "rows": 11,
+      "observations": 33,
+      "initial_sample_standard_deviation": 0.18782830777166865
+    },
+    {
+      "attributes": {
+        "file": "file6",
+        "id": "m6",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "100.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "time_decimal_strings": [
+        "0.0",
+        "1.4666666666666668",
+        "2.9166666666666665",
+        "4.366666666666666",
+        "5.833333333333333",
+        "7.483333333333333",
+        "8.983333333333333",
+        "10.483333333333333",
+        "11.983333333333333",
+        "13.483333333333333",
+        "14.983333333333333"
+      ],
+      "initial_measured_replicates": [
+        97.75718582833356,
+        98.43367754331236,
+        97.22799472871306
+      ],
+      "initial_measured_mean": 97.80628603345299,
+      "rows": 11,
+      "observations": 33,
+      "initial_sample_standard_deviation": 0.6043392134903209
+    },
+    {
+      "attributes": {
+        "file": "file7",
+        "id": "m7",
+        "name": "ABTS measurement",
+        "temperature_unit": "u3",
+        "temperature_value": "298.15",
+        "ph": "3.0"
+      },
+      "initial_conditions": [
+        {
+          "protein": "p0",
+          "value": "0.073938727",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s0",
+          "value": "50.0",
+          "unit": "u1"
+        },
+        {
+          "reactant": "s1",
+          "value": "150.0",
+          "unit": "u4"
+        },
+        {
+          "reactant": "s2",
+          "value": "0.0",
+          "unit": "u4"
+        }
+      ],
+      "time_decimal_strings": [
+        "0.0",
+        "1.4666666666666668",
+        "2.9166666666666665",
+        "4.366666666666666",
+        "5.833333333333333",
+        "7.483333333333333",
+        "8.983333333333333",
+        "10.483333333333333",
+        "11.983333333333333",
+        "13.483333333333333",
+        "14.983333333333333"
+      ],
+      "initial_measured_replicates": [
+        146.63916781389747,
+        144.74062654927957,
+        146.27909964302165
+      ],
+      "initial_measured_mean": 145.88629800206624,
+      "rows": 11,
+      "observations": 33,
+      "initial_sample_standard_deviation": 1.0083821598070801
+    }
+  ],
+  "columns_by_format": {
+    "format0": [
+      {
+        "type": "time",
+        "unit": "u2",
+        "index": "0"
+      },
+      {
+        "replica": "A2",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "1",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "B2",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "2",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "C2",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "3",
+        "isCalculated": "False"
+      }
+    ],
+    "format1": [
+      {
+        "type": "time",
+        "unit": "u2",
+        "index": "0"
+      },
+      {
+        "replica": "A3",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "1",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "B3",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "2",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "C3",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "3",
+        "isCalculated": "False"
+      }
+    ],
+    "format2": [
+      {
+        "type": "time",
+        "unit": "u2",
+        "index": "0"
+      },
+      {
+        "replica": "A4",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "1",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "B4",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "2",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "C4",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "3",
+        "isCalculated": "False"
+      }
+    ],
+    "format3": [
+      {
+        "type": "time",
+        "unit": "u2",
+        "index": "0"
+      },
+      {
+        "replica": "A5",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "1",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "B5",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "2",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "C5",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "3",
+        "isCalculated": "False"
+      }
+    ],
+    "format4": [
+      {
+        "type": "time",
+        "unit": "u2",
+        "index": "0"
+      },
+      {
+        "replica": "A6",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "1",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "B6",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "2",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "C6",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "3",
+        "isCalculated": "False"
+      }
+    ],
+    "format5": [
+      {
+        "type": "time",
+        "unit": "u2",
+        "index": "0"
+      },
+      {
+        "replica": "A7",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "1",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "B7",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "2",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "C7",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "3",
+        "isCalculated": "False"
+      }
+    ],
+    "format6": [
+      {
+        "type": "time",
+        "unit": "u2",
+        "index": "0"
+      },
+      {
+        "replica": "A8",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "1",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "B8",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "2",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "C8",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "3",
+        "isCalculated": "False"
+      }
+    ],
+    "format7": [
+      {
+        "type": "time",
+        "unit": "u2",
+        "index": "0"
+      },
+      {
+        "replica": "A9",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "1",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "B9",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "2",
+        "isCalculated": "False"
+      },
+      {
+        "replica": "C9",
+        "species": "s1",
+        "type": "conc",
+        "unit": "u4",
+        "index": "3",
+        "isCalculated": "False"
+      }
+    ]
+  },
+  "interpretation": {
+    "intended_odes": {
+      "S": "-k_cat*E*S/(K_M+S)",
+      "E": "-k_ie*E"
+    },
+    "intended_concentration_unit": "micromole/litre",
+    "intended_time_unit": "minute",
+    "raw_sbml_semantics_do_not_match_intended_odes": true,
+    "intended_derivative_mapping": {
+      "r0": "d(s1)/dt",
+      "r1": "d(p0)/dt"
+    },
+    "observed_species": "s1",
+    "reported_stdev_probabilistic_definition": "UNRESOLVED: no full covariance, algorithm or residual/noise model in archive; exact library implementation read was denied",
+    "optimizer_bounds_are_confidence_intervals": false,
+    "repair_policy": "Preserve archive unchanged. Any concentration-ODE interpretation must be an explicitly labeled derived model, not silently repaired generic SBML."
+  },
+  "notebook_inspection": {
+    "url": "https://raw.githubusercontent.com/EnzymeML/slac_modeling/main/slac_kinetics.ipynb",
+    "sha256": "14d2c07bfc6b07e10e3317bd3176f7b8b1479c0ebe015732b54627235c79e9a8",
+    "executed": false,
+    "relevant_zero_based_cell_indices": {
+      "time_unit": 3,
+      "nominal_conditions": 7,
+      "blanking": 9,
+      "linear_calibration_mapping": 11,
+      "remove_200uM": 13,
+      "initial_rate_estimation": 23,
+      "fixed_parameter_stage": 27,
+      "saved_plots": 28,
+      "export": 38
+    },
+    "estimation_library_pin": "FAIRChemistry/EnzymePynetics@9557beb2da1f9116d08eb0ee996862894a8a37e7",
+    "stages": {
+      "stage_1": "fit_models(max_time=3), plain MM k_cat/K_M chosen for stage 2",
+      "stage_2": "fit_models_fixed_params(fixed_params=[k_cat,K_M], model=michaelis menten)",
+      "export": "explicit MM with enzyme inactivation from init_rate_estimators"
+    },
+    "residual_weighting_or_fitting_initialization": "NOT ESTABLISHED from notebook call sites or saved plots",
+    "saved_25C_plot_initialization_checks": [
+      {
+        "measurement": "m0",
+        "plot_y0": 3.9339679495687183,
+        "observed_t0_mean": 3.9339679495687183,
+        "initial_mean_match_abs_error": 0.0,
+        "max_abs_analytical_vs_recorded_plot_error": 7.57166342957305e-08,
+        "n_plot_points": 100
+      },
+      {
+        "measurement": "m1",
+        "plot_y0": 8.309341783544417,
+        "observed_t0_mean": 8.309341783544417,
+        "initial_mean_match_abs_error": 0.0,
+        "max_abs_analytical_vs_recorded_plot_error": 1.9381669869034113e-07,
+        "n_plot_points": 100
+      },
+      {
+        "measurement": "m2",
+        "plot_y0": 13.113887780786227,
+        "observed_t0_mean": 13.113887780786225,
+        "initial_mean_match_abs_error": 1.7763568394002505e-15,
+        "max_abs_analytical_vs_recorded_plot_error": 1.5442155820721837e-07,
+        "n_plot_points": 100
+      },
+      {
+        "measurement": "m3",
+        "plot_y0": 22.255618563577514,
+        "observed_t0_mean": 22.255618563577514,
+        "initial_mean_match_abs_error": 0.0,
+        "max_abs_analytical_vs_recorded_plot_error": 1.9551503172010598e-07,
+        "n_plot_points": 100
+      },
+      {
+        "measurement": "m4",
+        "plot_y0": 48.429664944463724,
+        "observed_t0_mean": 48.429664944463724,
+        "initial_mean_match_abs_error": 0.0,
+        "max_abs_analytical_vs_recorded_plot_error": 1.83835190625814e-07,
+        "n_plot_points": 100
+      },
+      {
+        "measurement": "m5",
+        "plot_y0": 72.24326442738634,
+        "observed_t0_mean": 72.24326442738634,
+        "initial_mean_match_abs_error": 0.0,
+        "max_abs_analytical_vs_recorded_plot_error": 1.350896994267714e-07,
+        "n_plot_points": 100
+      },
+      {
+        "measurement": "m6",
+        "plot_y0": 97.80628603345299,
+        "observed_t0_mean": 97.80628603345299,
+        "initial_mean_match_abs_error": 0.0,
+        "max_abs_analytical_vs_recorded_plot_error": 1.1121386478407658e-07,
+        "n_plot_points": 100
+      },
+      {
+        "measurement": "m7",
+        "plot_y0": 145.88629800206624,
+        "observed_t0_mean": 145.88629800206624,
+        "initial_mean_match_abs_error": 0.0,
+        "max_abs_analytical_vs_recorded_plot_error": 1.22194052210034e-07,
+        "n_plot_points": 100
+      }
+    ],
+    "saved_25C_plot_analytical_max_abs_error": 1.9551503172010598e-07,
+    "saved_25C_AIC": {
+      "competitive_product_inhibition_with_inactivation": -514,
+      "exported_MM_with_inactivation": -398
+    },
+    "source_read_denial": {
+      "url": "https://github.com/FAIRChemistry/EnzymePynetics/tree/9557beb2da1f9116d08eb0ee996862894a8a37e7/EnzymePynetics/core",
+      "status": "denied: Failed to fetch restricted URL",
+      "retry": "none; no alternate route attempted"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "numerical_replay_byte_identical_to_reviewed_working_version": true,
+  "model_extraction_change": "Input path provenance only",
+  "new_Lean_proofs": false,
+  "original_archive_modified": false,
+  "notebook_executed": false
+}

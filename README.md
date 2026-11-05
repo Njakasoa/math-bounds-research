@@ -52,3 +52,11 @@ Independent end-to-end reconstruction passed for seven modules and 21 declaratio
 [Model-selection assessment, 2026-11-05](assessments/closed-binding-20261105/README.md) is a reviewed analytical note, **not a new Lean proof milestone**. It compares closed binding with a fixed-ligand approximation and records 48 exact-rational equilibrium tests. Model choice depends on the physical setup, observable, normalization, horizon, tolerance and initial conditions. A stationary capacity obstruction does not automatically reject a short-time approximation.
 
 No independent three-species integration, biological dataset, parameter fit or biological novelty is claimed. Transient bounds are analytical arguments, not new Lean-certified results. Literature access and the unverified canonical URL of an indexed preprint mirror are explicitly documented. Existing proof milestones remain unchanged.
+
+## Computational assessment: SLAC/ABTS
+
+[SLAC/ABTS ingestion and conditional replay, 2026-11-05](assessments/slac-abts-20261105/README.md) is a computational/descriptive assessment, not a Lean milestone, biological validation or new parameter fit. It audits 264 concentrations and reproduces 800 saved prediction points using explicitly declared concentration equations. It does **not** silently repair or solve the literal SBML export: sign, unit and initialization discrepancies are documented.
+
+Derived summaries attribute Max Häussler, DaRUS-3867 version 1 ([dataset DOI](https://doi.org/10.18419/DARUS-3867)); the primary-source survey records [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The original archive and third-party notebook are not redistributed. Numerical predictions extracted from saved notebook output are identified as predictions, not measurements. Exact input hashes and provenance are in INPUTS.md.
+
+Independent replay is floating-point, not certified rounding or statistical coverage. Residual/stdev semantics remain unresolved because estimation-source access was refused and was not bypassed. The full two-state model has multiple fixed states and cannot satisfy strict global contraction on a domain containing them. The finite-horizon scalar Euler truncation budget prescribes enzyme analytically and excludes rounding and interpolation. Existing milestones remain unchanged.

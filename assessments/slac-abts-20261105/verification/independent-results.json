@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "method": "Independent scalar Radau, matched by initial means; no source notebook execution",
+  "archive_sha256": "6404d43ced75108a126f1f071057b8600e4aeecefb720c53dc29607bc774afa3",
+  "rows": [
+    {
+      "id": "m0",
+      "points": 100,
+      "max_error_saved_uM": 7.571629412339576e-08,
+      "max_implicit_identity_residual_uM": 8.263612016889965e-12
+    },
+    {
+      "id": "m1",
+      "points": 100,
+      "max_error_saved_uM": 1.9381670135487639e-07,
+      "max_implicit_identity_residual_uM": 1.1094847263137808e-11
+    },
+    {
+      "id": "m2",
+      "points": 100,
+      "max_error_saved_uM": 1.5442165590684453e-07,
+      "max_implicit_identity_residual_uM": 1.1732392835028804e-11
+    },
+    {
+      "id": "m3",
+      "points": 100,
+      "max_error_saved_uM": 1.9551782060034384e-07,
+      "max_implicit_identity_residual_uM": 1.425393136855746e-11
+    },
+    {
+      "id": "m4",
+      "points": 100,
+      "max_error_saved_uM": 1.8383518352038664e-07,
+      "max_implicit_identity_residual_uM": 2.2139623467865022e-11
+    },
+    {
+      "id": "m5",
+      "points": 100,
+      "max_error_saved_uM": 1.3508962837249783e-07,
+      "max_implicit_identity_residual_uM": 2.8810731578232662e-11
+    },
+    {
+      "id": "m6",
+      "points": 100,
+      "max_error_saved_uM": 1.1123711374239065e-07,
+      "max_implicit_identity_residual_uM": 3.6853187168617296e-11
+    },
+    {
+      "id": "m7",
+      "points": 100,
+      "max_error_saved_uM": 1.2219399536661513e-07,
+      "max_implicit_identity_residual_uM": 5.480593756601593e-11
+    }
+  ],
+  "pooled_rmse_after_t0_uM": 0.8797375577207969
+}

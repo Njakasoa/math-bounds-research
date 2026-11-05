@@ -1,0 +1,70 @@
+{
+  "output": "model_audit_extraction.json",
+  "plot_checks": [
+    {
+      "measurement": "m0",
+      "plot_y0": 3.9339679495687183,
+      "observed_t0_mean": 3.9339679495687183,
+      "initial_mean_match_abs_error": 0.0,
+      "max_abs_analytical_vs_recorded_plot_error": 7.57166342957305e-08,
+      "n_plot_points": 100
+    },
+    {
+      "measurement": "m1",
+      "plot_y0": 8.309341783544417,
+      "observed_t0_mean": 8.309341783544417,
+      "initial_mean_match_abs_error": 0.0,
+      "max_abs_analytical_vs_recorded_plot_error": 1.9381669869034113e-07,
+      "n_plot_points": 100
+    },
+    {
+      "measurement": "m2",
+      "plot_y0": 13.113887780786227,
+      "observed_t0_mean": 13.113887780786225,
+      "initial_mean_match_abs_error": 1.7763568394002505e-15,
+      "max_abs_analytical_vs_recorded_plot_error": 1.5442155820721837e-07,
+      "n_plot_points": 100
+    },
+    {
+      "measurement": "m3",
+      "plot_y0": 22.255618563577514,
+      "observed_t0_mean": 22.255618563577514,
+      "initial_mean_match_abs_error": 0.0,
+      "max_abs_analytical_vs_recorded_plot_error": 1.9551503172010598e-07,
+      "n_plot_points": 100
+    },
+    {
+      "measurement": "m4",
+      "plot_y0": 48.429664944463724,
+      "observed_t0_mean": 48.429664944463724,
+      "initial_mean_match_abs_error": 0.0,
+      "max_abs_analytical_vs_recorded_plot_error": 1.83835190625814e-07,
+      "n_plot_points": 100
+    },
+    {
+      "measurement": "m5",
+      "plot_y0": 72.24326442738634,
+      "observed_t0_mean": 72.24326442738634,
+      "initial_mean_match_abs_error": 0.0,
+      "max_abs_analytical_vs_recorded_plot_error": 1.350896994267714e-07,
+      "n_plot_points": 100
+    },
+    {
+      "measurement": "m6",
+      "plot_y0": 97.80628603345299,
+      "observed_t0_mean": 97.80628603345299,
+      "initial_mean_match_abs_error": 0.0,
+      "max_abs_analytical_vs_recorded_plot_error": 1.1121386478407658e-07,
+      "n_plot_points": 100
+    },
+    {
+      "measurement": "m7",
+      "plot_y0": 145.88629800206624,
+      "observed_t0_mean": 145.88629800206624,
+      "initial_mean_match_abs_error": 0.0,
+      "max_abs_analytical_vs_recorded_plot_error": 1.22194052210034e-07,
+      "n_plot_points": 100
+    }
+  ],
+  "max_abs_analytical_vs_saved_plot_error": 1.9551503172010598e-07
+}
