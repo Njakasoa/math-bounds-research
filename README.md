@@ -46,3 +46,9 @@ The original rebuild script passed end-to-end in an independent fresh copy: six 
 [Euler error, 2026-11-05](jalons/euler-error-20261105/README.md) proves a grid-point error bound when both trajectories use the same input held constant on each mesh interval. For 0 < τ ≤ 1/(1+M), the bound is (1−τ)^n e(0) + τ(1+M)²(1−(1−τ)^n)/2. The exact initial state is physical; the Euler initial state may be any real number for the error estimate.
 
 Independent end-to-end reconstruction passed for seven modules and 21 declaration audits. Exact-rational interval experiments passed 572 local configurations and 15 trajectory/boundary cases. Segment derivatives, initial values and joins are verified, not a globally assembled trajectory's uniqueness or global differentiability at input jumps. This does not bound interpolation, rounding or replacement of a continuously varying input by a held input. The Python exponential enclosure algorithm is not Lean-formalized; analytic proofs are separate. No biological validation or novelty is claimed. Earlier milestones remain unchanged.
+
+## Analytical assessment: open versus closed binding
+
+[Model-selection assessment, 2026-11-05](assessments/closed-binding-20261105/README.md) is a reviewed analytical note, **not a new Lean proof milestone**. It compares closed binding with a fixed-ligand approximation and records 48 exact-rational equilibrium tests. Model choice depends on the physical setup, observable, normalization, horizon, tolerance and initial conditions. A stationary capacity obstruction does not automatically reject a short-time approximation.
+
+No independent three-species integration, biological dataset, parameter fit or biological novelty is claimed. Transient bounds are analytical arguments, not new Lean-certified results. Literature access and the unverified canonical URL of an indexed preprint mirror are explicitly documented. Existing proof milestones remain unchanged.

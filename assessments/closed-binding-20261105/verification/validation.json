@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "rational_parameter_cases": 48,
+  "script_matches_independent_copy": true,
+  "results_byte_identical": true,
+  "new_Lean_proofs": false,
+  "python": "3.12.14",
+  "scope": "Analytical assessment and exact equilibrium regression tests; not empirical validation or numerical integration."
+}
