@@ -1,0 +1,25 @@
+import ReciprocalVariation
+import TrackingRecurrence
+import BernsteinTracking
+
+#print axioms ReciprocalVariation.target_lipschitz
+#print axioms TrackingRecurrence.convolution_succ
+#print axioms TrackingRecurrence.recurrence_convolution
+#print axioms TrackingRecurrence.geometric_sum_identity
+#print axioms TrackingRecurrence.geometric_sum_succ
+#print axioms TrackingRecurrence.geometric_sum_eq
+#print axioms TrackingRecurrence.geometric_sum_le
+#print axioms TrackingRecurrence.recurrence_bounded_drift
+#print axioms TrackingRecurrence.recurrence_bounded_drift_closed
+#print axioms TrackingRecurrence.recurrence_uniform
+#print axioms TrackingRecurrence.tracking_step
+#print axioms TrackingRecurrence.tracking_convolution
+#print axioms TrackingRecurrence.tracking_bounded_drift
+#print axioms TrackingRecurrence.tracking_uniform
+#print axioms BernsteinTracking.target_fixed
+#print axioms BernsteinTracking.error_nonneg
+#print axioms BernsteinTracking.one_step
+#print axioms BernsteinTracking.variation_convolution
+#print axioms BernsteinTracking.bounded_variation_finite
+#print axioms BernsteinTracking.bounded_variation_closed
+#print axioms BernsteinTracking.bounded_variation

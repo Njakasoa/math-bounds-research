@@ -1,0 +1,22 @@
+[
+  {
+    "name": "outside_box_initial",
+    "steps": 50,
+    "input_step_bound": "1/100",
+    "initial_error": "99",
+    "uniform_forcing_bound": "13/50",
+    "maximum_error_approx": 60.9234767631409,
+    "final_error_approx": 0.01357834003385708,
+    "assertions": "exact Fraction arithmetic; displayed errors approximate only"
+  },
+  {
+    "name": "zero_horizon",
+    "steps": 0,
+    "input_step_bound": "0",
+    "initial_error": "101",
+    "uniform_forcing_bound": "0",
+    "maximum_error_approx": 0.0,
+    "final_error_approx": 101.0,
+    "assertions": "exact Fraction arithmetic; displayed errors approximate only"
+  }
+]

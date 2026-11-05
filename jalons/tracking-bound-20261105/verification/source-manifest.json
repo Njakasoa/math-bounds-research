@@ -1,0 +1,34 @@
+[
+  {
+    "file": "src/AuditTracking.lean",
+    "sha256": "104761db2b3c891b3b7ade76e619023c0a072463d0dd22c80935f6a261676c27"
+  },
+  {
+    "file": "src/BernsteinCertificate.lean",
+    "sha256": "26c4c7bcd59300e98f92823363f84717f43ad5599791f77225d4321ae447e392"
+  },
+  {
+    "file": "src/BernsteinGlobalExample.lean",
+    "sha256": "3b7c0bfe2bbbdc3c53de83b25058e2d904c6ce0c9ea4e795aa9c02e9ca2dad05"
+  },
+  {
+    "file": "src/BernsteinGlobalRealization.lean",
+    "sha256": "b51876b3dbf457c0df5d09a23dcef1f78d185b7b89b509dc93586a73cca5099a"
+  },
+  {
+    "file": "src/BernsteinTracking.lean",
+    "sha256": "1c21cf7f9fb1f91551b337064330a95895d9d36f9c2335247243c1568b71532c"
+  },
+  {
+    "file": "src/GlobalScalarMap.lean",
+    "sha256": "19af900702ff24539f8d55f88af127c8769837994630d9c5342aa69f693d4f97"
+  },
+  {
+    "file": "src/ReciprocalVariation.lean",
+    "sha256": "c30c2b59dbb12cf255522ae016c28344f2581c4425c4b81acf9c3ef57eecde23"
+  },
+  {
+    "file": "src/TrackingRecurrence.lean",
+    "sha256": "20eed6e490d3799ea2d2a24b5f5d75e2258efab2a0e8c0e1d0599cef308d38eb"
+  }
+]

@@ -28,3 +28,9 @@ Only text sources and compact verification evidence are stored. Toolchains, cach
 For the Bernstein example the certified contraction factor is 12/13, optimal only for the fixed degree-5 coefficient envelope, not the true range (which allows 2/3). Synchronization under a shared input sequence does not imply tracking a moving instantaneous target. The bound checker requires a separate target-identity proof. No novelty claim is made.
 
 See the milestone's [validation scope](jalons/bernstein-global-20261105/verification/BUILD_SCOPE.md): all individual build and check commands passed, but the final packaged driver was not rerun monolithically after a formatting-only script edit.
+
+## Controlled-variation tracking milestone
+
+[Tracking bounds, 2026-11-05](jalons/tracking-bound-20261105/README.md) adds three Lean modules proving a finite tracking-error bound for the same discrete scalar recurrence. If each input increment is at most δ, then e(n) ≤ (12/13)^n e(0) + 26δ(1−(12/13)^n), for any real initial state. Constants are conservative; bounded nonzero variation does not force the error to tend to zero.
+
+The independent review ran the original rebuild script end-to-end in a fresh copy. All seven modules compiled; 21 named declaration audits plus the independently audited convolution_zero cover 22 new statements using only standard axioms. Four exact-rational Python experiments passed. This is a classical discrete estimate, with no novelty, continuous-time or synthesis claim. Earlier milestones remain unchanged.

@@ -1,0 +1,5 @@
+'BernsteinGlobalRealization.stationary_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BernsteinGlobalRealization.polynomial_readout' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BernsteinGlobalRealization.trajectory_in_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BernsteinGlobalRealization.trajectories_contract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BernsteinGlobalRealization.stationary_error' depends on axioms: [propext, Classical.choice, Quot.sound]

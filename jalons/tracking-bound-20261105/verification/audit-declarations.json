@@ -1,0 +1,86 @@
+[
+  {
+    "module": "ReciprocalVariation",
+    "declaration": "ReciprocalVariation.target_lipschitz"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.convolution_succ"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.recurrence_convolution"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.geometric_sum_identity"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.geometric_sum_succ"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.geometric_sum_eq"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.geometric_sum_le"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.recurrence_bounded_drift"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.recurrence_bounded_drift_closed"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.recurrence_uniform"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.tracking_step"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.tracking_convolution"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.tracking_bounded_drift"
+  },
+  {
+    "module": "TrackingRecurrence",
+    "declaration": "TrackingRecurrence.tracking_uniform"
+  },
+  {
+    "module": "BernsteinTracking",
+    "declaration": "BernsteinTracking.target_fixed"
+  },
+  {
+    "module": "BernsteinTracking",
+    "declaration": "BernsteinTracking.error_nonneg"
+  },
+  {
+    "module": "BernsteinTracking",
+    "declaration": "BernsteinTracking.one_step"
+  },
+  {
+    "module": "BernsteinTracking",
+    "declaration": "BernsteinTracking.variation_convolution"
+  },
+  {
+    "module": "BernsteinTracking",
+    "declaration": "BernsteinTracking.bounded_variation_finite"
+  },
+  {
+    "module": "BernsteinTracking",
+    "declaration": "BernsteinTracking.bounded_variation_closed"
+  },
+  {
+    "module": "BernsteinTracking",
+    "declaration": "BernsteinTracking.bounded_variation"
+  }
+]
