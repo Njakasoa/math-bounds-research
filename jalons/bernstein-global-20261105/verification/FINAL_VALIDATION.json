@@ -1,0 +1,18 @@
+{
+  "audited_declarations": 63,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "runtime_probes": [
+    "true",
+    "true",
+    "false",
+    "false",
+    "false",
+    "false",
+    "true"
+  ],
+  "status": "PASS"
+}

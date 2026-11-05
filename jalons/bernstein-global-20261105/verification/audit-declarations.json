@@ -1,0 +1,254 @@
+[
+  {
+    "module": "BernsteinCertificate",
+    "declaration": "BernsteinCertificate.weight_nonneg"
+  },
+  {
+    "module": "BernsteinCertificate",
+    "declaration": "BernsteinCertificate.sum_weight"
+  },
+  {
+    "module": "BernsteinCertificate",
+    "declaration": "BernsteinCertificate.coefficient_hull"
+  },
+  {
+    "module": "BernsteinCertificate",
+    "declaration": "BernsteinCertificate.check_iff"
+  },
+  {
+    "module": "BernsteinCertificate",
+    "declaration": "BernsteinCertificate.q_abs_le"
+  },
+  {
+    "module": "BernsteinCertificate",
+    "declaration": "BernsteinCertificate.check_sound"
+  },
+  {
+    "module": "BernsteinCertificate",
+    "declaration": "BernsteinCertificate.qPolynomial_eval"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.contraction"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.preserves_box"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.coefficient_lt_one"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.denominator_pos"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.fixedState_fixed"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.fixedState_unique"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.fixedState_in_box"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.family_contraction"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.reciprocal_positive"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.fixedState_solves"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.fixedState_reciprocal"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.readout_ratio"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.switched_contraction"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.switched_box"
+  },
+  {
+    "module": "GlobalScalarMap",
+    "declaration": "GlobalScalarMap.exists_unique_fixed"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.s_bernstein_identity"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.q_bernstein_identity"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.baseline_bernstein_identity"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.domain_transform"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.target_identity"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.transform_mem_unit"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.optimized_radius"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.baseline_radius"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.optimized_check"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.baseline_check"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.q_target"
+  },
+  {
+    "module": "BernsteinGlobalExample",
+    "declaration": "BernsteinGlobalExample.global_contraction_bound"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.b_identity"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.b_bound"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.update_formula"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.update_preserves_box"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.update_contracts"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.equilibrium_target"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.equilibrium_fixed"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.equilibrium_in_box"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.equilibrium_unique"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.stationary_realization"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.polynomial_readout"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.trajectory_in_box"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.trajectories_contract"
+  },
+  {
+    "module": "BernsteinGlobalRealization",
+    "declaration": "BernsteinGlobalRealization.stationary_error"
+  },
+  {
+    "module": "OptimalScalarRelaxation",
+    "declaration": "OptimalScalarRelaxation.positive_parameters"
+  },
+  {
+    "module": "OptimalScalarRelaxation",
+    "declaration": "OptimalScalarRelaxation.uniform_bound"
+  },
+  {
+    "module": "OptimalScalarRelaxation",
+    "declaration": "OptimalScalarRelaxation.lower_bound"
+  },
+  {
+    "module": "OptimalScalarRelaxation",
+    "declaration": "OptimalScalarRelaxation.invariant_radius_identity"
+  },
+  {
+    "module": "OptimalScalarRelaxation",
+    "declaration": "OptimalScalarRelaxation.degree_five_best_bound"
+  },
+  {
+    "module": "BernsteinVsMonomial",
+    "declaration": "BernsteinVsMonomial.slope_amplitude"
+  },
+  {
+    "module": "BernsteinVsMonomial",
+    "declaration": "BernsteinVsMonomial.update_lipschitz"
+  },
+  {
+    "module": "BernsteinVsMonomial",
+    "declaration": "BernsteinVsMonomial.original_checker_rejects"
+  },
+  {
+    "module": "BernsteinVsMonomial",
+    "declaration": "BernsteinVsMonomial.update_eval"
+  },
+  {
+    "module": "BernsteinAlternatingInput",
+    "declaration": "BernsteinAlternatingInput.cycle_first"
+  },
+  {
+    "module": "BernsteinAlternatingInput",
+    "declaration": "BernsteinAlternatingInput.cycle_second"
+  },
+  {
+    "module": "BernsteinAlternatingInput",
+    "declaration": "BernsteinAlternatingInput.alternating_admissible"
+  },
+  {
+    "module": "BernsteinAlternatingInput",
+    "declaration": "BernsteinAlternatingInput.cycle_recurrence"
+  },
+  {
+    "module": "BernsteinAlternatingInput",
+    "declaration": "BernsteinAlternatingInput.actual_trajectory"
+  },
+  {
+    "module": "BernsteinAlternatingInput",
+    "declaration": "BernsteinAlternatingInput.persistent_even_error"
+  }
+]

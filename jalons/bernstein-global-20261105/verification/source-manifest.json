@@ -1,0 +1,50 @@
+[
+  {
+    "file": "src/AuditBernsteinGlobal.lean",
+    "sha256": "a5e61046a3a055472a56c8f78468429834a99819477f938e8622d7f434745f9e"
+  },
+  {
+    "file": "src/BernsteinAlternatingInput.lean",
+    "sha256": "13707451f3918abc86f11c5382ee80290867ef9e104b99c778a05c4f93177755"
+  },
+  {
+    "file": "src/BernsteinCertificate.lean",
+    "sha256": "26c4c7bcd59300e98f92823363f84717f43ad5599791f77225d4321ae447e392"
+  },
+  {
+    "file": "src/BernsteinGlobalExample.lean",
+    "sha256": "3b7c0bfe2bbbdc3c53de83b25058e2d904c6ce0c9ea4e795aa9c02e9ca2dad05"
+  },
+  {
+    "file": "src/BernsteinGlobalRealization.lean",
+    "sha256": "b51876b3dbf457c0df5d09a23dcef1f78d185b7b89b509dc93586a73cca5099a"
+  },
+  {
+    "file": "src/BernsteinRuntimeProbes.lean",
+    "sha256": "c6707fe0001790c9f911c47634495b27a9777f233f4d40f327be8546c90609c1"
+  },
+  {
+    "file": "src/BernsteinVsMonomial.lean",
+    "sha256": "063dea9b7d673ad83598b820fe68710e901e0ec4645b8146a5ca8024c46dcec7"
+  },
+  {
+    "file": "src/BoxContractionChecker.lean",
+    "sha256": "63ad841fdb5be45adbc50b50548f478f64423687e0066d3185e438e59d20d44e"
+  },
+  {
+    "file": "src/BoxPolynomialBounds.lean",
+    "sha256": "5489ae7326aabaccb8e48fe6b651eac4a5977e72ee301bf7b499d3623c449d68"
+  },
+  {
+    "file": "src/GlobalScalarMap.lean",
+    "sha256": "19af900702ff24539f8d55f88af127c8769837994630d9c5342aa69f693d4f97"
+  },
+  {
+    "file": "src/OptimalScalarRelaxation.lean",
+    "sha256": "cf566b010bc39ee86b1227ed875b51d520c899b116425fad0031fa04ee344d9c"
+  },
+  {
+    "file": "src/UniformStationaryBanach.lean",
+    "sha256": "d773f3fba88060de8a357a39863a3e1d43d65574e720a4d70c1669fc9995b215"
+  }
+]

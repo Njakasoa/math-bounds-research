@@ -1,0 +1,30 @@
+{
+  "BernsteinCertificate.lean": {
+    "unchanged": true,
+    "sha256": "26c4c7bcd59300e98f92823363f84717f43ad5599791f77225d4321ae447e392"
+  },
+  "BernsteinGlobalExample.lean": {
+    "unchanged": true,
+    "sha256": "3b7c0bfe2bbbdc3c53de83b25058e2d904c6ce0c9ea4e795aa9c02e9ca2dad05"
+  },
+  "GlobalScalarMap.lean": {
+    "unchanged": true,
+    "sha256": "19af900702ff24539f8d55f88af127c8769837994630d9c5342aa69f693d4f97"
+  },
+  "BernsteinGlobalRealization.lean": {
+    "unchanged": true,
+    "sha256": "b51876b3dbf457c0df5d09a23dcef1f78d185b7b89b509dc93586a73cca5099a"
+  },
+  "BernsteinVsMonomial.lean": {
+    "unchanged": true,
+    "sha256": "063dea9b7d673ad83598b820fe68710e901e0ec4645b8146a5ca8024c46dcec7"
+  },
+  "OptimalScalarRelaxation.lean": {
+    "unchanged": true,
+    "sha256": "cf566b010bc39ee86b1227ed875b51d520c899b116425fad0031fa04ee344d9c"
+  },
+  "BernsteinAlternatingInput.lean": {
+    "unchanged": true,
+    "sha256": "13707451f3918abc86f11c5382ee80290867ef9e104b99c778a05c4f93177755"
+  }
+}

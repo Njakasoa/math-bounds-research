@@ -1,0 +1,4 @@
+BernsteinAlternatingInput.lean:25:52: warning: `if_true` has been deprecated: Use `ite_true` instead
+BernsteinAlternatingInput.lean:25:61: warning: `if_false` has been deprecated: Use `ite_false` instead
+BernsteinAlternatingInput.lean:28:52: warning: `if_true` has been deprecated: Use `ite_true` instead
+BernsteinAlternatingInput.lean:28:61: warning: `if_false` has been deprecated: Use `ite_false` instead

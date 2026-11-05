@@ -1,0 +1,5 @@
+BernsteinAlternatingInput.lean:15:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instDivInvMonoid', which is 'noncomputable'
+BernsteinAlternatingInput.lean:25:52: warning: `if_true` has been deprecated: Use `ite_true` instead
+BernsteinAlternatingInput.lean:25:61: warning: `if_false` has been deprecated: Use `ite_false` instead
+BernsteinAlternatingInput.lean:28:52: warning: `if_true` has been deprecated: Use `ite_true` instead
+BernsteinAlternatingInput.lean:28:61: warning: `if_false` has been deprecated: Use `ite_false` instead
