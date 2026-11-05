@@ -34,3 +34,9 @@ See the milestone's [validation scope](jalons/bernstein-global-20261105/verifica
 [Tracking bounds, 2026-11-05](jalons/tracking-bound-20261105/README.md) adds three Lean modules proving a finite tracking-error bound for the same discrete scalar recurrence. If each input increment is at most δ, then e(n) ≤ (12/13)^n e(0) + 26δ(1−(12/13)^n), for any real initial state. Constants are conservative; bounded nonzero variation does not force the error to tend to zero.
 
 The independent review ran the original rebuild script end-to-end in a fresh copy. All seven modules compiled; 21 named declaration audits plus the independently audited convolution_zero cover 22 new statements using only standard axioms. Four exact-rational Python experiments passed. This is a classical discrete estimate, with no novelty, continuous-time or synthesis claim. Earlier milestones remain unchanged.
+
+## Toy reaction-binding milestone
+
+[Reaction binding, 2026-11-05](jalons/reaction-binding-20261105/README.md) studies a one-site binding toy model with externally imposed ligand. It separates continuous dynamics from Euler recurrence: contraction alone can accept a step producing an unphysical fraction −1/5. A model-specific exact invariance guard and a safe-step tracking bound are formalized.
+
+The original rebuild script passed end-to-end in an independent fresh copy: six modules, 40 declaration audits and six exact runtime probes. Exact-rational experiments also passed. The formal bridge proves flux/substitution identities and an explicit constant-input formula's derivative, initial value and invariance, not general CRN trajectory equivalence or IVP uniqueness. No Euler–ODE accuracy, biological validation, general CRN result or novelty is claimed. Bibliographic access limitations are documented. Earlier milestones remain unchanged.

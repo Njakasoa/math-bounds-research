@@ -1,0 +1,42 @@
+{
+  "src/ReactionBindingTracking.lean": {
+    "unchanged": true,
+    "sha256": "f99adca8a5017be6c75e02e14de9a8f69f68cc127b77f1650393c39e3c541c73"
+  },
+  "src/MassActionBinding.lean": {
+    "unchanged": true,
+    "sha256": "60f18127a50f0917e2fe8afafa6e9067838bda57a00b087a91a3dd8daf0f4ad3"
+  },
+  "src/AuditReaction.lean": {
+    "unchanged": true,
+    "sha256": "ece33127d3a20cfaa2a9ac4bced005fa25e5e45366b816829b6410fa7d853f9f"
+  },
+  "src/TrackingRecurrence.lean": {
+    "unchanged": true,
+    "sha256": "20eed6e490d3799ea2d2a24b5f5d75e2258efab2a0e8c0e1d0599cef308d38eb"
+  },
+  "src/GlobalScalarMap.lean": {
+    "unchanged": true,
+    "sha256": "19af900702ff24539f8d55f88af127c8769837994630d9c5342aa69f693d4f97"
+  },
+  "src/BernsteinCertificate.lean": {
+    "unchanged": true,
+    "sha256": "26c4c7bcd59300e98f92823363f84717f43ad5599791f77225d4321ae447e392"
+  },
+  "src/ReactionBindingEuler.lean": {
+    "unchanged": true,
+    "sha256": "1a34823233ed819e65d8c5e905f8f9a1dbcdf0e6c03f9c0e8be87fe54fe7aba1"
+  },
+  "rebuild.sh": {
+    "unchanged": true,
+    "sha256": "4a2bcb6cf72d32ee869cfcf5b9a77ff8df89374ad086459a32338b4b85d2d449"
+  },
+  "verify_outputs.py": {
+    "unchanged": true,
+    "sha256": "316f94ec3530196280f8deca64338e6040c33f7b44f958e1df92bfb5fb5d901e"
+  },
+  "modules.txt": {
+    "unchanged": true,
+    "sha256": "3793c5cedcde3a8d27d96df7a25ab92e06a1d40fcddc8efa681f0a783a742de8"
+  }
+}
