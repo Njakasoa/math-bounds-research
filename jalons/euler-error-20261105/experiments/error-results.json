@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "local_interval_checks": 572,
+  "cases": [
+    {
+      "case": "constant_input",
+      "step": "1/4",
+      "steps": 4,
+      "horizon": "1",
+      "final_error_upper_approx": 0.013736729166550636,
+      "maximum_error_upper_approx": 0.27590958087858175,
+      "final_theorem_bound_approx": 1.3671875,
+      "exact_state_interval_width_approx": 2.923438064649697e-21
+    },
+    {
+      "case": "same_piecewise_constant_input",
+      "step": "1/4",
+      "steps": 4,
+      "horizon": "1",
+      "final_error_upper_approx": 0.07573431132985319,
+      "maximum_error_upper_approx": 0.27590958087858175,
+      "final_theorem_bound_approx": 1.3671875,
+      "exact_state_interval_width_approx": 4.214296554561887e-21
+    },
+    {
+      "case": "constant_input",
+      "step": "1/8",
+      "steps": 8,
+      "horizon": "1",
+      "final_error_upper_approx": 0.010807041666550636,
+      "maximum_error_upper_approx": 0.08840958087858174,
+      "final_theorem_bound_approx": 0.6563910841941833,
+      "exact_state_interval_width_approx": 1.6910122089204835e-27
+    },
+    {
+      "case": "same_piecewise_constant_input",
+      "step": "1/8",
+      "steps": 8,
+      "horizon": "1",
+      "final_error_upper_approx": 0.03477972148610318,
+      "maximum_error_upper_approx": 0.08840958087858174,
+      "final_theorem_bound_approx": 0.6563910841941833,
+      "exact_state_interval_width_approx": 2.4383409071746977e-27
+    },
+    {
+      "case": "constant_input",
+      "step": "1/16",
+      "steps": 16,
+      "horizon": "1",
+      "final_error_upper_approx": 0.006219782348336725,
+      "maximum_error_upper_approx": 0.038604893378581744,
+      "final_theorem_bound_approx": 0.3219629347741036,
+      "exact_state_interval_width_approx": 1.2559524845987117e-33
+    },
+    {
+      "case": "same_piecewise_constant_input",
+      "step": "1/16",
+      "steps": 16,
+      "horizon": "1",
+      "final_error_upper_approx": 0.016759764240106258,
+      "maximum_error_upper_approx": 0.038604893378581744,
+      "final_theorem_bound_approx": 0.3219629347741036,
+      "exact_state_interval_width_approx": 1.8112767564905398e-33
+    },
+    {
+      "case": "constant_input",
+      "step": "1/32",
+      "steps": 32,
+      "horizon": "1",
+      "final_error_upper_approx": 0.0032818513882882836,
+      "maximum_error_upper_approx": 0.018202894024219252,
+      "final_theorem_bound_approx": 0.15948617768592085,
+      "exact_state_interval_width_approx": 1.0570279860036752e-39
+    },
+    {
+      "case": "same_piecewise_constant_input",
+      "step": "1/32",
+      "steps": 32,
+      "horizon": "1",
+      "final_error_upper_approx": 0.008230109999392944,
+      "maximum_error_upper_approx": 0.018202894024219252,
+      "final_theorem_bound_approx": 0.15948617768592085,
+      "exact_state_interval_width_approx": 1.524514565550947e-39
+    },
+    {
+      "case": "constant_input",
+      "step": "1/64",
+      "steps": 64,
+      "horizon": "1",
+      "final_error_upper_approx": 0.0016801819033361617,
+      "maximum_error_upper_approx": 0.008853983039737142,
+      "final_theorem_bound_approx": 0.07937668446951157,
+      "exact_state_interval_width_approx": 9.469851472962117e-46
+    },
+    {
+      "case": "same_piecewise_constant_input",
+      "step": "1/64",
+      "steps": 64,
+      "horizon": "1",
+      "final_error_upper_approx": 0.004078550399015914,
+      "maximum_error_upper_approx": 0.008853983039737142,
+      "final_theorem_bound_approx": 0.07937668446951157,
+      "exact_state_interval_width_approx": 1.365857522902951e-45
+    },
+    {
+      "case": "constant_input",
+      "step": "1/128",
+      "steps": 128,
+      "horizon": "1",
+      "final_error_upper_approx": 0.0008494614884372085,
+      "maximum_error_upper_approx": 0.004368113936344322,
+      "final_theorem_bound_approx": 0.039597642754872674,
+      "exact_state_interval_width_approx": 8.753294728421825e-52
+    },
+    {
+      "case": "same_piecewise_constant_input",
+      "step": "1/128",
+      "steps": 128,
+      "horizon": "1",
+      "final_error_upper_approx": 0.002030264635833042,
+      "maximum_error_upper_approx": 0.004368113936344322,
+      "final_theorem_bound_approx": 0.039597642754872674,
+      "exact_state_interval_width_approx": 1.2625321716402347e-51
+    },
+    {
+      "case": "M_zero_tau_one",
+      "step": "1",
+      "steps": 4,
+      "horizon": "4",
+      "final_error_upper_approx": 0.01831563888873418,
+      "maximum_error_upper_approx": 0.36787944117144233,
+      "final_theorem_bound_approx": 0.5,
+      "exact_state_interval_width_approx": 3.8979174195329295e-21
+    },
+    {
+      "case": "distinct_initial_states",
+      "step": "1/4",
+      "steps": 4,
+      "horizon": "1",
+      "final_error_upper_approx": 0.004578909722183545,
+      "maximum_error_upper_approx": 1.5,
+      "final_theorem_bound_approx": 1.841796875,
+      "exact_state_interval_width_approx": 9.744793548832324e-22
+    },
+    {
+      "case": "zero_horizon",
+      "step": "1/4",
+      "steps": 0,
+      "horizon": "0",
+      "final_error_upper_approx": 0.0,
+      "maximum_error_upper_approx": 0.0,
+      "final_theorem_bound_approx": 0.0,
+      "exact_state_interval_width_approx": 0.0
+    }
+  ],
+  "scope": "All inequalities use Fraction interval endpoints; exponentials enclosed by alternating Taylor sums of degrees20/21. Displayed decimals approximate. The enclosure algorithm is not formalized in Lean; mathematical bounds are separate proofs. Switching times1/4,1/2,3/4 align across meshes."
+}

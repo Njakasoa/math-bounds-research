@@ -1,0 +1,2 @@
+'EulerLocalError.exp_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerLocalError.local_error' depends on axioms: [propext, Classical.choice, Quot.sound]

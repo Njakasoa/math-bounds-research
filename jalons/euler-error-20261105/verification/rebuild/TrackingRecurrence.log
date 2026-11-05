@@ -1,0 +1,8 @@
+'TrackingRecurrence.recurrence_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TrackingRecurrence.recurrence_bounded_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TrackingRecurrence.recurrence_bounded_drift_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TrackingRecurrence.recurrence_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TrackingRecurrence.tracking_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TrackingRecurrence.tracking_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TrackingRecurrence.tracking_bounded_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TrackingRecurrence.tracking_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,86 @@
+[
+  {
+    "module": "EulerLocalError",
+    "declaration": "EulerLocalError.exp_remainder"
+  },
+  {
+    "module": "EulerLocalError",
+    "declaration": "EulerLocalError.local_error"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.X_zero"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.Y_zero"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.X_succ"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.Y_succ"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.segment_initial"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.segment_endpoint"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.segment_derivative"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.segment_join"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.mesh_bounds"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.slope_bounds"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.E_contract"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.X_mem_unit"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.Y_mem_unit"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.error_step"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.global_error_closed"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.global_error_uniform"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.physical_global_error"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.same_initial_error_closed"
+  },
+  {
+    "module": "EulerGlobalError",
+    "declaration": "EulerGlobalError.same_initial_error"
+  }
+]

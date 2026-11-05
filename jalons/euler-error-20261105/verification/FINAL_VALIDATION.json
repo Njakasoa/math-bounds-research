@@ -1,0 +1,9 @@
+{
+  "audited_declarations": 21,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "src/AuditEulerError.lean",
+    "sha256": "ca11346f83a221d0fcbe4790a94a603798174fe0c9cbff35904c6eba3b58364a"
+  },
+  {
+    "file": "src/BernsteinCertificate.lean",
+    "sha256": "26c4c7bcd59300e98f92823363f84717f43ad5599791f77225d4321ae447e392"
+  },
+  {
+    "file": "src/EulerGlobalError.lean",
+    "sha256": "68729893f18142d088ab43c553d7b4d09474f162f71eb485787943b48d9b6789"
+  },
+  {
+    "file": "src/EulerLocalError.lean",
+    "sha256": "87ac43131156c08670f7a75238244364bda1a5898db8e891dfec52fb94b6d467"
+  },
+  {
+    "file": "src/GlobalScalarMap.lean",
+    "sha256": "19af900702ff24539f8d55f88af127c8769837994630d9c5342aa69f693d4f97"
+  },
+  {
+    "file": "src/MassActionBinding.lean",
+    "sha256": "60f18127a50f0917e2fe8afafa6e9067838bda57a00b087a91a3dd8daf0f4ad3"
+  },
+  {
+    "file": "src/ReactionBindingEuler.lean",
+    "sha256": "1a34823233ed819e65d8c5e905f8f9a1dbcdf0e6c03f9c0e8be87fe54fe7aba1"
+  },
+  {
+    "file": "src/TrackingRecurrence.lean",
+    "sha256": "20eed6e490d3799ea2d2a24b5f5d75e2258efab2a0e8c0e1d0599cef308d38eb"
+  }
+]

@@ -1,0 +1,4 @@
+'MassActionBinding.sample_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassActionBinding.receptor_conservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassActionBinding.normalized_vector_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassActionBinding.sample_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
